@@ -1,20 +1,65 @@
 {
-  "_comment": "クローラの巡回先リスト。ここにURLを足すだけで収集対象が増えます。robots.txtと利用規約を尊重できる、教室の公式サイト・自治体の生涯学習/子育てページ・商店街/地域団体のお知らせページ等を登録してください。",
+  "_comment": "クローラの巡回先リスト。URLを足すだけで収集対象が増えます。教室公式サイト・自治体/公益財団の教室案内ページを推奨。大手習い事ポータルのDBページはDB著作権の観点から登録しないこと。全URLは2026-06-07時点で実在・コンテンツ確認済み。",
   "sources": [
     {
-      "url": "https://example-toyosu-classroom.com/",
+      "url": "https://www.kids.ecc.jp/school/tokyo/toyosu/",
       "areaHint": "wangan",
-      "note": "（サンプル）豊洲の教室公式サイト。実運用時は実在URLに差し替え"
+      "note": "ECC KIDS豊洲校（江東区豊洲・1歳半〜小学生の英会話）"
     },
     {
-      "url": "https://example-setagaya-kosodate.jp/lessons/",
+      "url": "https://www.funandhappy.jp/",
+      "areaHint": "wangan",
+      "note": "Fun and Happy English School（豊洲の独立系子供英会話）"
+    },
+    {
+      "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
+      "areaHint": "wangan",
+      "note": "スポーツクラブNAS勝どき キッズスクール（スイム/ダンス/体操/空手）"
+    },
+    {
+      "url": "https://www.chuo-sports.jp/school_tsukishima/",
+      "areaHint": "wangan",
+      "note": "中央区立月島スポーツプラザ 教室案内（区営・幼児/小学生教室）"
+    },
+    {
+      "url": "https://www.se-sports.or.jp/school/",
       "areaHint": "setagaya",
-      "note": "（サンプル）世田谷の子育て情報ページ"
+      "note": "世田谷区スポーツ振興財団 教室一覧（ジュニアアカデミー等）"
     },
     {
-      "url": "https://example-nerima-community.jp/news/",
+      "url": "https://www.sportsproject.co.jp/setagayataisou/",
+      "areaHint": "setagaya",
+      "note": "世田谷体操教室 三宿校（幼児・小学生体操）"
+    },
+    {
+      "url": "https://www.pianosetagaya.com/",
+      "areaHint": "setagaya",
+      "note": "世田谷こどもとシニアのピアノ教室（桜丘・4歳〜）"
+    },
+    {
+      "url": "https://physipa.com/",
+      "areaHint": "setagaya",
+      "note": "フィジカルパーク（東北沢・0歳〜運動/体操・小学校受験体操）"
+    },
+    {
+      "url": "https://crefus.com/classroom/single/87",
       "areaHint": "nerima",
-      "note": "（サンプル）練馬の地域情報ページ"
+      "note": "ロボット科学教育Crefus練馬校（年長〜ロボット/プログラミング）"
+    },
+    {
+      "url": "https://programming.nerima.cc/",
+      "areaHint": "nerima",
+      "note": "練馬プログラミング教室（練馬駅徒歩3分・年中〜）"
+    },
+    {
+      "url": "https://www.s-nanko.com/",
+      "areaHint": "nerima",
+      "note": "スポーツクラブ南光（貫井・ジュニアスイミング/ダンス/体操）"
+    },
+    {
+      "url": "https://www.ostc.jp/",
+      "areaHint": "nerima",
+      "note": "大泉スワロー体育クラブ（大泉学園・体操/水泳/トランポリン）"
     }
   ]
 }
