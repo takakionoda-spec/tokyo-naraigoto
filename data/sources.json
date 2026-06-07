@@ -1,0 +1,20 @@
+{
+  "_comment": "クローラの巡回先リスト。ここにURLを足すだけで収集対象が増えます。robots.txtと利用規約を尊重できる、教室の公式サイト・自治体の生涯学習/子育てページ・商店街/地域団体のお知らせページ等を登録してください。",
+  "sources": [
+    {
+      "url": "https://example-toyosu-classroom.com/",
+      "areaHint": "wangan",
+      "note": "（サンプル）豊洲の教室公式サイト。実運用時は実在URLに差し替え"
+    },
+    {
+      "url": "https://example-setagaya-kosodate.jp/lessons/",
+      "areaHint": "setagaya",
+      "note": "（サンプル）世田谷の子育て情報ページ"
+    },
+    {
+      "url": "https://example-nerima-community.jp/news/",
+      "areaHint": "nerima",
+      "note": "（サンプル）練馬の地域情報ページ"
+    }
+  ]
+}

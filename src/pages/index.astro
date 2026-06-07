@@ -1,0 +1,377 @@
+---
+import Base from '../layouts/Base.astro';
+import classrooms from '../data/classrooms.json';
+
+export const AREA_LABELS = { wangan: '湾岸エリア', setagaya: '世田谷エリア', nerima: '練馬エリア' };
+export const CATEGORY_LABELS = { learning: '学び', language: '語学', sports: 'スポーツ', other: 'その他' };
+export const NICHE_LABELS = {
+  international: 'インターに通う・目指す',
+  sports: 'スポーツでのびのび',
+  juken: '中学受験を予定・検討中',
+};
+const CATEGORY_COLORS = {
+  learning: 'bg-indigo-100 text-indigo-700',
+  language: 'bg-emerald-100 text-emerald-700',
+  sports: 'bg-orange-100 text-orange-700',
+  other: 'bg-pink-100 text-pink-700',
+};
+
+// おすすめ順（パートナー最優先 → 新着順）で初期描画
+const sorted = [...classrooms].sort(
+  (a, b) => Number(b.partner) - Number(a.partner) || b.addedAt.localeCompare(a.addedAt)
+);
+const NEW_THRESHOLD = Date.now() - 14 * 24 * 60 * 60 * 1000;
+const isNew = (c) => new Date(c.addedAt).getTime() > NEW_THRESHOLD;
+const partnerCount = classrooms.filter((c) => c.partner).length;
+---
+<Base
+  title="TOKYO習い事.com｜湾岸・世田谷・練馬の子どもの習い事ポータル"
+  description="豊洲・勝どき・有明などの湾岸エリア、世田谷、練馬の0〜12歳向け習い事を、インター志向・中学受験・スポーツ重視などの「親のニーズ軸」で探せるポータルサイト。"
+>
+  <!-- Hero -->
+  <section class="bg-gradient-to-b from-sky-100 via-sky-50 to-slate-50">
+    <div class="mx-auto max-w-6xl px-4 pb-10 pt-14 text-center">
+      <h1 class="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
+        わが家の方針に合う習い事が、<span class="bg-gradient-to-r from-sky-600 to-indigo-600 bg-clip-text text-transparent">3分で見つかる。</span>
+      </h1>
+      <p class="mx-auto mt-4 max-w-2xl text-slate-600">
+        湾岸（豊洲・勝どき・有明）・世田谷・練馬の0〜12歳向け教室を、
+        「インター志向」「中学受験」「スポーツでのびのび」という<strong>育て方のニーズ軸</strong>から探せます。
+      </p>
+      <p class="mt-6 text-sm text-slate-500">
+        掲載教室 <strong class="text-slate-800">{classrooms.length}</strong> 件 ／ 公式パートナー <strong class="text-amber-600">{partnerCount}</strong> 件 ／ 10日ごとに自動更新
+      </p>
+    </div>
+  </section>
+
+  <main id="classrooms" class="mx-auto max-w-6xl px-4 pt-8">
+    <!-- フィルタ -->
+    <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5">
+      <div class="flex flex-wrap items-center gap-2" id="area-tabs" role="tablist" aria-label="エリア">
+        <button data-area="all" class="area-tab rounded-full px-4 py-1.5 text-sm font-bold">すべてのエリア</button>
+        {Object.entries(AREA_LABELS).map(([key, label]) => (
+          <button data-area={key} class="area-tab rounded-full px-4 py-1.5 text-sm font-bold">{label}</button>
+        ))}
+      </div>
+
+      <div class="mt-3 flex flex-wrap items-center gap-2" aria-label="カテゴリー">
+        <span class="text-xs font-semibold text-slate-400">カテゴリー</span>
+        <button data-category="all" class="cat-chip rounded-full border px-3 py-1 text-xs font-semibold">すべて</button>
+        {Object.entries(CATEGORY_LABELS).map(([key, label]) => (
+          <button data-category={key} class="cat-chip rounded-full border px-3 py-1 text-xs font-semibold">{label}</button>
+        ))}
+      </div>
+
+      <div class="mt-3 flex flex-wrap items-center gap-2" aria-label="ニーズで絞り込み">
+        <span class="text-xs font-semibold text-slate-400">ニーズ</span>
+        {Object.entries(NICHE_LABELS).map(([key, label]) => (
+          <button data-niche={key} class="niche-chip rounded-full border px-3 py-1 text-xs font-semibold">{label}</button>
+        ))}
+      </div>
+
+      <div class="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center">
+        <input
+          id="keyword"
+          type="search"
+          placeholder="キーワード（例：英語 / 水泳 / 豊洲）"
+          class="w-full rounded-xl border border-slate-300 px-4 py-2 text-sm focus:border-sky-500 focus:outline-none focus:ring-2 focus:ring-sky-200 sm:max-w-xs"
+        />
+        <select id="sort" class="rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm">
+          <option value="recommended">おすすめ順（公式パートナー優先）</option>
+          <option value="newest">新着順</option>
+        </select>
+        <p class="text-sm text-slate-500 sm:ml-auto"><span id="result-count">{classrooms.length}</span> 件ヒット</p>
+      </div>
+    </div>
+
+    <!-- 教室カード -->
+    <div id="card-grid" class="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {sorted.map((c) => (
+        <article
+          data-card
+          data-id={c.id}
+          data-area={c.area}
+          data-category={c.category}
+          data-niche={c.niche.join(',')}
+          data-partner={c.partner ? '1' : '0'}
+          data-added={c.addedAt}
+          data-search={`${c.name} ${c.description} ${c.address} ${c.station}`.toLowerCase()}
+          class={`group relative flex cursor-pointer flex-col rounded-2xl border bg-white p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md ${
+            c.partner
+              ? 'border-amber-300 ring-2 ring-amber-300/70 bg-gradient-to-b from-amber-50/80 to-white'
+              : 'border-slate-200'
+          }`}
+        >
+          <div class="flex flex-wrap items-center gap-1.5">
+            {c.partner && (
+              <span class="inline-flex items-center gap-1 rounded-full bg-amber-400 px-2.5 py-0.5 text-[11px] font-extrabold text-amber-950">
+                ★ 公式パートナー
+              </span>
+            )}
+            {isNew(c) && (
+              <span class="rounded-full bg-rose-500 px-2 py-0.5 text-[11px] font-bold text-white">NEW</span>
+            )}
+            <span class={`rounded-full px-2 py-0.5 text-[11px] font-bold ${CATEGORY_COLORS[c.category]}`}>
+              {CATEGORY_LABELS[c.category]}
+            </span>
+            <span class="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-600">
+              {AREA_LABELS[c.area]}
+            </span>
+          </div>
+          <h2 class={`mt-3 font-bold leading-snug text-slate-900 group-hover:text-sky-700 ${c.partner ? 'text-lg' : 'text-base'}`}>
+            {c.name}
+          </h2>
+          <p class="mt-1 text-xs text-slate-500">{c.station} ／ {c.ages}</p>
+          <p class="mt-2 line-clamp-3 text-sm leading-relaxed text-slate-600">{c.description}</p>
+          {c.niche.length > 0 && (
+            <div class="mt-3 flex flex-wrap gap-1.5">
+              {c.niche.map((n) => (
+                <span class="rounded-md bg-sky-50 px-2 py-0.5 text-[11px] font-semibold text-sky-700"># {NICHE_LABELS[n]}</span>
+              ))}
+            </div>
+          )}
+          <div class="mt-auto pt-4">
+            <span class="text-sm font-bold text-sky-600 group-hover:underline">詳しく見る →</span>
+          </div>
+        </article>
+      ))}
+    </div>
+
+    <p id="no-results" class="mt-10 hidden rounded-2xl border border-dashed border-slate-300 bg-white p-10 text-center text-slate-500">
+      条件に合う教室が見つかりませんでした。条件を減らしてお試しください。
+    </p>
+
+    <!-- オーナー向けセクション -->
+    <section id="owner" class="mt-16 scroll-mt-24">
+      <div class="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
+        <div class="grid gap-0 lg:grid-cols-2">
+          <div class="bg-gradient-to-br from-slate-900 to-indigo-950 p-8 text-slate-100 sm:p-10">
+            <h2 class="text-2xl font-extrabold">教室オーナーの皆さまへ</h2>
+            <p class="mt-3 text-sm leading-relaxed text-slate-300">
+              TOKYO習い事.comは地域の公開情報をもとに教室情報を無料掲載しています。
+              <strong class="text-white">年間10,000円の「公式パートナー」</strong>になると、次の優遇が受けられます。
+            </p>
+            <ul class="mt-5 space-y-3 text-sm">
+              <li class="flex gap-2"><span class="text-amber-400">★</span>検索結果の最上位に常時表示</li>
+              <li class="flex gap-2"><span class="text-amber-400">★</span>公式パートナーバッジ＆ゴールドデザインで目立つ掲載</li>
+              <li class="flex gap-2"><span class="text-amber-400">★</span>あなたの教室ページから競合教室の表示を非表示化</li>
+              <li class="flex gap-2"><span class="text-amber-400">★</span>掲載内容（写真・紹介文・料金）の自由編集</li>
+            </ul>
+            <p class="mt-6 text-xs text-slate-400">情報の修正・削除のみのご依頼は無料で承ります。下のフォームからどうぞ。</p>
+          </div>
+          <div class="p-8 sm:p-10">
+            <!-- Formspree: https://formspree.io で無料登録し、YOUR_FORM_ID を差し替えてください -->
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-4">
+              <div>
+                <label for="f-type" class="block text-sm font-bold text-slate-700">ご用件 <span class="text-rose-500">*</span></label>
+                <select id="f-type" name="ご用件" required class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2 text-sm">
+                  <option value="公式パートナー申込（年間1万円）">公式パートナーに申し込む（年間10,000円）</option>
+                  <option value="掲載情報の修正依頼">掲載情報の修正を依頼する（無料）</option>
+                  <option value="掲載情報の削除依頼">掲載情報の削除を依頼する（無料）</option>
+                  <option value="その他のお問い合わせ">その他のお問い合わせ</option>
+                </select>
+              </div>
+              <div>
+                <label for="f-name" class="block text-sm font-bold text-slate-700">教室名 <span class="text-rose-500">*</span></label>
+                <input id="f-name" name="教室名" required class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2 text-sm" placeholder="例：豊洲キッズアカデミー" />
+              </div>
+              <div>
+                <label for="f-email" class="block text-sm font-bold text-slate-700">メールアドレス <span class="text-rose-500">*</span></label>
+                <input id="f-email" type="email" name="email" required class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2 text-sm" placeholder="info@example.com" />
+              </div>
+              <div>
+                <label for="f-msg" class="block text-sm font-bold text-slate-700">内容</label>
+                <textarea id="f-msg" name="内容" rows="4" class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2 text-sm" placeholder="修正したい箇所、ご質問などをご記入ください"></textarea>
+              </div>
+              <button type="submit" class="w-full rounded-xl bg-gradient-to-r from-amber-400 to-amber-500 px-4 py-3 text-sm font-extrabold text-amber-950 shadow transition hover:brightness-105">
+                送信する
+              </button>
+              <p class="text-xs text-slate-400">通常2営業日以内にメールでご返信します。</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 詳細モーダル -->
+  <div id="modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4">
+    <div id="modal-backdrop" class="absolute inset-0 bg-slate-900/60 backdrop-blur-sm"></div>
+    <div id="modal-panel" class="relative max-h-[85vh] w-full max-w-lg overflow-y-auto rounded-3xl bg-white p-6 shadow-2xl sm:p-8">
+      <button id="modal-close" class="absolute right-4 top-4 grid h-9 w-9 place-items-center rounded-full bg-slate-100 text-slate-500 hover:bg-slate-200" aria-label="閉じる">✕</button>
+      <div id="modal-badges" class="flex flex-wrap gap-1.5 pr-10"></div>
+      <h3 id="modal-title" class="mt-3 text-xl font-extrabold text-slate-900"></h3>
+      <dl class="mt-4 space-y-2 text-sm">
+        <div class="flex gap-3"><dt class="w-20 shrink-0 font-bold text-slate-400">アクセス</dt><dd id="modal-station" class="text-slate-700"></dd></div>
+        <div class="flex gap-3"><dt class="w-20 shrink-0 font-bold text-slate-400">住所</dt><dd id="modal-address" class="text-slate-700"></dd></div>
+        <div class="flex gap-3"><dt class="w-20 shrink-0 font-bold text-slate-400">対象年齢</dt><dd id="modal-ages" class="text-slate-700"></dd></div>
+        <div class="flex gap-3"><dt class="w-20 shrink-0 font-bold text-slate-400">料金目安</dt><dd id="modal-price" class="text-slate-700"></dd></div>
+      </dl>
+      <p id="modal-description" class="mt-4 text-sm leading-relaxed text-slate-600"></p>
+      <div id="modal-niche" class="mt-3 flex flex-wrap gap-1.5"></div>
+      <div class="mt-6 flex flex-col gap-2 sm:flex-row">
+        <a id="modal-url" href="#" target="_blank" rel="noopener nofollow" class="flex-1 rounded-xl bg-sky-600 px-4 py-2.5 text-center text-sm font-bold text-white hover:bg-sky-500">公式サイトを見る</a>
+        <a id="modal-page" href="#" class="flex-1 rounded-xl border border-slate-300 px-4 py-2.5 text-center text-sm font-bold text-slate-700 hover:bg-slate-50">紹介ページへ</a>
+      </div>
+      <!-- 非パートナー教室の詳細にのみ表示される広告枠（パートナー特典：競合広告の非表示） -->
+      <div id="modal-ad" class="mt-5 hidden rounded-xl border border-dashed border-slate-300 bg-slate-50 p-4">
+        <p class="text-[11px] font-bold text-slate-400">PR｜近くのおすすめ教室</p>
+        <div id="modal-ad-body" class="mt-1 text-sm"></div>
+      </div>
+      <p id="modal-partner-note" class="mt-5 hidden rounded-xl bg-amber-50 p-3 text-xs font-semibold text-amber-800">
+        ★ この教室はTOKYO習い事.com公式パートナーです。掲載内容は教室により直接管理されています。
+      </p>
+    </div>
+  </div>
+
+  <script is:inline type="application/json" id="classroom-data" set:html={JSON.stringify(classrooms)} />
+
+  <script>
+    const DATA = JSON.parse(document.getElementById('classroom-data').textContent);
+    const byId = Object.fromEntries(DATA.map((c) => [c.id, c]));
+    const NICHE_LABELS = {
+      international: 'インターに通う・目指す',
+      sports: 'スポーツでのびのび',
+      juken: '中学受験を予定・検討中',
+    };
+    const AREA_LABELS = { wangan: '湾岸エリア', setagaya: '世田谷エリア', nerima: '練馬エリア' };
+
+    // ---------- フィルタ状態 ----------
+    const state = { area: 'all', category: 'all', niches: new Set(), keyword: '', sort: 'recommended' };
+    const grid = document.getElementById('card-grid');
+    const cards = Array.from(document.querySelectorAll('[data-card]'));
+    const count = document.getElementById('result-count');
+    const noResults = document.getElementById('no-results');
+
+    const ACTIVE_TAB = ['bg-sky-600', 'text-white'];
+    const IDLE_TAB = ['bg-slate-100', 'text-slate-600'];
+    const ACTIVE_CHIP = ['bg-sky-600', 'text-white', 'border-sky-600'];
+    const IDLE_CHIP = ['bg-white', 'text-slate-600', 'border-slate-300'];
+
+    function paint(buttons, isActive, on, off) {
+      buttons.forEach((b) => {
+        const active = isActive(b);
+        b.classList.remove(...on, ...off);
+        b.classList.add(...(active ? on : off));
+      });
+    }
+
+    function render() {
+      const areaTabs = document.querySelectorAll('.area-tab');
+      const catChips = document.querySelectorAll('.cat-chip');
+      const nicheChips = document.querySelectorAll('.niche-chip');
+      paint(areaTabs, (b) => b.dataset.area === state.area, ACTIVE_TAB, IDLE_TAB);
+      paint(catChips, (b) => b.dataset.category === state.category, ACTIVE_CHIP, IDLE_CHIP);
+      paint(nicheChips, (b) => state.niches.has(b.dataset.niche), ACTIVE_CHIP, IDLE_CHIP);
+
+      let visible = 0;
+      cards.forEach((card) => {
+        const niches = card.dataset.niche ? card.dataset.niche.split(',') : [];
+        const ok =
+          (state.area === 'all' || card.dataset.area === state.area) &&
+          (state.category === 'all' || card.dataset.category === state.category) &&
+          [...state.niches].every((n) => niches.includes(n)) &&
+          (state.keyword === '' || card.dataset.search.includes(state.keyword));
+        card.classList.toggle('hidden', !ok);
+        if (ok) visible++;
+      });
+
+      // 並べ替え（DOMを並び替え）
+      const sortedCards = [...cards].sort((a, b) => {
+        if (state.sort === 'recommended') {
+          return (
+            Number(b.dataset.partner) - Number(a.dataset.partner) ||
+            b.dataset.added.localeCompare(a.dataset.added)
+          );
+        }
+        return b.dataset.added.localeCompare(a.dataset.added);
+      });
+      sortedCards.forEach((c) => grid.appendChild(c));
+
+      count.textContent = String(visible);
+      noResults.classList.toggle('hidden', visible > 0);
+    }
+
+    document.querySelectorAll('.area-tab').forEach((b) =>
+      b.addEventListener('click', () => { state.area = b.dataset.area; render(); })
+    );
+    document.querySelectorAll('.cat-chip').forEach((b) =>
+      b.addEventListener('click', () => { state.category = b.dataset.category; render(); })
+    );
+    document.querySelectorAll('.niche-chip').forEach((b) =>
+      b.addEventListener('click', () => {
+        const k = b.dataset.niche;
+        state.niches.has(k) ? state.niches.delete(k) : state.niches.add(k);
+        render();
+      })
+    );
+    document.getElementById('keyword').addEventListener('input', (e) => {
+      state.keyword = e.target.value.trim().toLowerCase();
+      render();
+    });
+    document.getElementById('sort').addEventListener('change', (e) => {
+      state.sort = e.target.value;
+      render();
+    });
+
+    // ---------- 詳細モーダル ----------
+    const modal = document.getElementById('modal');
+    const $ = (id) => document.getElementById(id);
+
+    function openModal(id) {
+      const c = byId[id];
+      if (!c) return;
+      $('modal-title').textContent = c.name;
+      $('modal-station').textContent = c.station;
+      $('modal-address').textContent = c.address;
+      $('modal-ages').textContent = c.ages;
+      $('modal-price').textContent = c.price;
+      $('modal-description').textContent = c.description;
+      $('modal-url').href = c.url;
+      $('modal-page').href = `/c/${c.id}/`;
+
+      const badges = [];
+      if (c.partner) badges.push('<span class="rounded-full bg-amber-400 px-2.5 py-0.5 text-[11px] font-extrabold text-amber-950">★ 公式パートナー</span>');
+      badges.push(`<span class="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-600">${AREA_LABELS[c.area]}</span>`);
+      $('modal-badges').innerHTML = badges.join('');
+      $('modal-niche').innerHTML = c.niche
+        .map((n) => `<span class="rounded-md bg-sky-50 px-2 py-0.5 text-[11px] font-semibold text-sky-700"># ${NICHE_LABELS[n]}</span>`)
+        .join('');
+
+      // パートナー特典：競合広告（PR枠）の非表示
+      $('modal-partner-note').classList.toggle('hidden', !c.partner);
+      const adBox = $('modal-ad');
+      if (c.partner) {
+        adBox.classList.add('hidden');
+      } else {
+        const rival = DATA.find((x) => x.partner && x.area === c.area && x.id !== c.id) || DATA.find((x) => x.partner);
+        if (rival) {
+          $('modal-ad-body').innerHTML =
+            `<button data-ad-link="${rival.id}" class="font-bold text-sky-700 hover:underline">★ ${rival.name}</button>` +
+            `<span class="ml-1 text-xs text-slate-500">${AREA_LABELS[rival.area]}・公式パートナー</span>`;
+          adBox.classList.remove('hidden');
+          adBox.querySelector('[data-ad-link]').addEventListener('click', (e) => openModal(e.currentTarget.dataset.adLink));
+        } else {
+          adBox.classList.add('hidden');
+        }
+      }
+
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+      document.body.style.overflow = '';
+    }
+
+    cards.forEach((card) => card.addEventListener('click', () => openModal(card.dataset.id)));
+    $('modal-close').addEventListener('click', closeModal);
+    $('modal-backdrop').addEventListener('click', closeModal);
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
+
+    render();
+  </script>
+</Base>

@@ -1,0 +1,39 @@
+# 10日毎にクローラを実行し、新データをcommit。
+# pushを検知して Cloudflare Pages が自動で再ビルド・デプロイする。
+name: auto-update
+
+on:
+  schedule:
+    # 毎月 1日・11日・21日・31日 21:00 UTC（= JST翌朝6:00）に実行 ≒ 10日周期
+    - cron: '0 21 1,11,21,31 * *'
+  workflow_dispatch: # 手動実行も可能（Actionsタブの Run workflow ボタン）
+
+permissions:
+  contents: write
+
+jobs:
+  crawl-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run crawler
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/crawl.mjs
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "tokyo-naraigoto-bot"
+          git config user.email "actions@github.com"
+          if ! git diff --quiet src/data/classrooms.json; then
+            git add src/data/classrooms.json
+            git commit -m "chore: auto-update classrooms ($(date +%Y-%m-%d))"
+            git push
+          else
+            echo "変更なし。commitをスキップ"
+          fi
