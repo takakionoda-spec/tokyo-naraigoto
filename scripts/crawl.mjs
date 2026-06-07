@@ -78,7 +78,11 @@ async function isAllowedByRobots(url) {
 
 async function fetchPage(url) {
   const res = await fetch(url, {
-    headers: { 'User-Agent': 'TokyoNaraigotoBot/1.0 (+https://tokyo-naraigoto.com; local kids-lesson portal)' },
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (compatible; TokyoNaraigotoBot/1.0; +https://tokyo-naraigoto.com; local kids-lesson portal)',
+      Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+      'Accept-Language': 'ja,en;q=0.8',
+    },
     signal: AbortSignal.timeout(20000),
     redirect: 'follow',
   });
