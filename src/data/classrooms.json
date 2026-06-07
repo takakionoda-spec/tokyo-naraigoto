@@ -4,9 +4,7 @@
     "name": "豊洲インターナショナルキッズアカデミー",
     "area": "wangan",
     "category": "language",
-    "niche": [
-      "international"
-    ],
+    "niche": ["international"],
     "address": "東京都江東区豊洲2丁目",
     "station": "豊洲駅 徒歩4分",
     "ages": "1歳〜小学6年生",
@@ -21,10 +19,7 @@
     "name": "世田谷英才アカデミー",
     "area": "setagaya",
     "category": "learning",
-    "niche": [
-      "juken",
-      "international"
-    ],
+    "niche": ["juken", "international"],
     "address": "東京都世田谷区奥沢5丁目",
     "station": "自由が丘駅 徒歩6分",
     "ages": "年長〜小学6年生",
@@ -39,9 +34,7 @@
     "name": "勝どきジュニアスイミングクラブ",
     "area": "wangan",
     "category": "sports",
-    "niche": [
-      "sports"
-    ],
+    "niche": ["sports"],
     "address": "東京都中央区勝どき3丁目",
     "station": "勝どき駅 徒歩5分",
     "ages": "0歳6ヶ月〜小学6年生",
@@ -56,9 +49,7 @@
     "name": "有明進学ゼミ 小学部",
     "area": "wangan",
     "category": "learning",
-    "niche": [
-      "juken"
-    ],
+    "niche": ["juken"],
     "address": "東京都江東区有明1丁目",
     "station": "有明駅 徒歩3分",
     "ages": "小学1年生〜6年生",
@@ -88,9 +79,7 @@
     "name": "駒沢サッカースクール U-12",
     "area": "setagaya",
     "category": "sports",
-    "niche": [
-      "sports"
-    ],
+    "niche": ["sports"],
     "address": "東京都世田谷区駒沢公園1丁目",
     "station": "駒沢大学駅 徒歩12分",
     "ages": "年少〜小学6年生",
@@ -105,9 +94,7 @@
     "name": "三軒茶屋イングリッシュハウス",
     "area": "setagaya",
     "category": "language",
-    "niche": [
-      "international"
-    ],
+    "niche": ["international"],
     "address": "東京都世田谷区太子堂4丁目",
     "station": "三軒茶屋駅 徒歩3分",
     "ages": "2歳〜小学6年生",
@@ -122,9 +109,7 @@
     "name": "練馬中学受験専門 桜進塾",
     "area": "nerima",
     "category": "learning",
-    "niche": [
-      "juken"
-    ],
+    "niche": ["juken"],
     "address": "東京都練馬区練馬1丁目",
     "station": "練馬駅 徒歩2分",
     "ages": "小学3年生〜6年生",
@@ -139,9 +124,7 @@
     "name": "光が丘体操クラブ",
     "area": "nerima",
     "category": "sports",
-    "niche": [
-      "sports"
-    ],
+    "niche": ["sports"],
     "address": "東京都練馬区光が丘2丁目",
     "station": "光が丘駅 徒歩6分",
     "ages": "1歳6ヶ月〜小学6年生",
@@ -165,256 +148,5 @@
     "url": "https://example.com/oizumi-otonomori",
     "partner": false,
     "addedAt": "2026-05-02"
-  },
-  {
-    "id": "wangan-ecckids-1pn61pn",
-    "name": "ECCKIDS 豊洲校",
-    "area": "wangan",
-    "category": "language",
-    "niche": [],
-    "address": "東京都江東区豊洲3-4-8スーパービバホーム豊洲 2階",
-    "station": "豊洲駅徒歩2分",
-    "ages": "1歳半〜小学6年生",
-    "price": "入学金11,000円、月額11,000円〜18,700円",
-    "description": "ECCKIDS豊洲校は、1歳半から小学6年生までを対象とした子供英会話教室です。オールイングリッシュの環境で、歌やダンス、絵本などを通じて楽しく自然に英語力を育みます。年齢に応じたカリキュラムで、未経験のお子さまから経験者まで幅広く対応し、小学生では「聞く・話す・読む・書く」の4技能をバランス良く向上させます。ECC独自の厳しい基準を満たした外国人講師とバイリンガル講師が、お子さま一人ひとりの成長に寄り添い、スーパーマスターコースではペアティーチングも導入",
-    "url": "https://www.kids.ecc.jp/school/tokyo/toyosu/",
-    "partner": false,
-    "addedAt": "2026-06-07"
-  },
-  {
-    "id": "wangan-fun-and-happy-12e184q",
-    "name": "Fun and Happy（ファンアンドハッピー）",
-    "area": "wangan",
-    "category": "language",
-    "niche": [],
-    "address": "江東区豊洲",
-    "station": "要問い合わせ",
-    "ages": "2歳〜小学6年生",
-    "price": "入会金22,000円（キャンペーン適用あり）、月謝は要問い合わせ",
-    "description": "江東区豊洲にある「Fun and Happy」は、2歳から小学6年生までを対象とした子ども向け英会話教室です。英語を英語で学ぶ環境を提供し、フォニックス学習を通じて読む力・書く力を育みます。アクティビティやゲームを取り入れた楽しいレッスンで、子どもたちが自然に英語を好きになるよう促します。イースターやハロウィンなどの季節イベントも開催。全てのクラスは少人数制で母子分離のため、一人ひとりの生徒とじっくり向き合い、きめ細やかな指導が期待できます。英語を楽しみな",
-    "url": "https://www.funandhappy.jp/",
-    "partner": false,
-    "addedAt": "2026-06-07"
-  },
-  {
-    "id": "wangan-classroom-zksiqi",
-    "name": "親子ベビークラス (スイムスクール)",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
-    "station": "勝どき駅 徒歩3分",
-    "ages": "生後6ヶ月〜3歳未満",
-    "price": "要問い合わせ",
-    "description": "生まれたばかりの赤ちゃんが水に慣れ、理解することを目的とした親子スイミングです。本能的な水への順応性を活かし、お母さんとコーチが共に指導します。水中で様々な動作や身体体験をすることで、運動能力の可能性を広げ、脳の発達や神経回路形成をサポート。初めてのお稽古にも最適です。",
-    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
-    "partner": false,
-    "addedAt": "2026-06-07"
-  },
-  {
-    "id": "wangan-classroom-xql536",
-    "name": "幼児クラス (スイムスクール)",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
-    "station": "勝どき駅 徒歩3分",
-    "ages": "3～6歳",
-    "price": "要問い合わせ",
-    "description": "水で遊ぶこと、泳ぐことの楽しさを通じて、自主性や協調性を育む幼児向けスイミングクラスです。目標を定めた本格的な指導により、コーチの説明をよく聞き、理解し、行動する習慣を身につけます。水に親しみながら、運動能力だけでなく心の成長も促したい家庭に最適です。",
-    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
-    "partner": false,
-    "addedAt": "2026-06-07"
-  },
-  {
-    "id": "wangan-classroom-1tu283q",
-    "name": "チャレンジ (スイムスクール)",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
-    "station": "勝どき駅 徒歩3分",
-    "ages": "小学生",
-    "price": "要問い合わせ",
-    "description": "水に慣れ親しみ、溺れない技術をしっかりと身につける小学生向けスイミングクラスです。いざという時の訓練として着衣水泳プログラムも取り入れ、実践的なスキルを習得します。水泳を通じて物事に対する集中力や判断力も養い、体力向上と精神的な成長を両立させたい家庭におすすめです。",
-    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
-    "partner": false,
-    "addedAt": "2026-06-07"
-  },
-  {
-    "id": "wangan-classroom-oz9fpz",
-    "name": "ベーシック (スイムスクール)",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
-    "station": "勝どき駅 徒歩3分",
-    "ages": "小学生",
-    "price": "要問い合わせ",
-    "description": "クロール、背泳ぎ、平泳ぎ、バタフライの正しい標準的なフォームを身につける小学生向けスイミングクラスです。基礎から丁寧に指導し、各泳法の習得を目指します。水泳の基本をしっかりと学び、美しいフォームで泳げるようになりたいお子様や、運動能力をバランス良く高めたい家庭に最適です。",
-    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
-    "partner": false,
-    "addedAt": "2026-06-07"
-  },
-  {
-    "id": "wangan-classroom-16noe1y",
-    "name": "アドバンス (スイムスクール)",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
-    "station": "勝どき駅 徒歩3分",
-    "ages": "小学生",
-    "price": "要問い合わせ",
-    "description": "4泳法をさらにきれいなフォームで長く泳ぐことを目標とする小学生向けスイミングクラスです。習得した泳法をより洗練させ、持久力と技術の向上を目指します。水泳のレベルアップを図りたいお子様や、競技会出場を視野に入れている家庭にも適しており、高い目標を持って取り組めます。",
-    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
-    "partner": false,
-    "addedAt": "2026-06-07"
-  },
-  {
-    "id": "wangan-classroom-79boa7",
-    "name": "マスター (スイムスクール)",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
-    "station": "勝どき駅 徒歩3分",
-    "ages": "小学生",
-    "price": "要問い合わせ",
-    "description": "4泳法をフォームを崩さず長く泳ぎ、スタートターンを練習する小学生向けスイミングクラスです。実践的な泳ぎの技術を磨き、レースで役立つスキルを習得します。より高度な技術を追求したいお子様や、競技力を高めたい家庭に最適。体力と精神力を同時に鍛え、自信を育みます。",
-    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
-    "partner": false,
-    "addedAt": "2026-06-07"
-  },
-  {
-    "id": "wangan-classroom-xbrjz0",
-    "name": "トップスイマー (スイムスクール)",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
-    "station": "勝どき駅 徒歩3分",
-    "ages": "小学生",
-    "price": "要問い合わせ",
-    "description": "4泳法をきれいなフォームで個人メドレーやタイム測定の記録を目標にしていく小学生向けスイミングクラスです。競技志向のお子様を対象に、記録更新を目指した専門的な指導を行います。高い目標設定を通じて、自己ベストを追求する向上心と、困難を乗り越える精神力を養いたい家庭に最適です。",
-    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
-    "partner": false,
-    "addedAt": "2026-06-07"
-  },
-  {
-    "id": "wangan-classroom-1ro2sti",
-    "name": "キッズスターター（初心者） (エイベックスダンスマスター)",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
-    "station": "勝どき駅 徒歩3分",
-    "ages": "5歳～小学生",
-    "price": "要問い合わせ",
-    "description": "エイベックス・アーティストアカデミー開発のダンスプログラムで、初心者から経験者まで対応。挨拶や礼儀も重視し、日本のエンタテイメントシーンで活躍する現役講師が直接指導します。楽しく体を動かしながら、どんなスポーツにも役立つ基礎体力やリズム感を養い、明るさや表現力を伸ばしたい家庭に最適です。",
-    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
-    "partner": false,
-    "addedAt": "2026-06-07"
-  },
-  {
-    "id": "wangan-classroom-1esbk4t",
-    "name": "キッズベーシック（初級者）進級クラス (エイベックスダンスマスター)",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
-    "station": "勝どき駅 徒歩3分",
-    "ages": "小学生",
-    "price": "要問い合わせ",
-    "description": "エイベックス・アーティストアカデミー開発のダンスプログラムの進級クラスで、小学生の初級者を対象としています。基本を大切にしつつ、より高度なダンス技術を習得。挨拶や礼儀も重視し、現役で活躍する講師陣が直接指導します。ダンスを通じて表現力と基礎体力を高めたい家庭に最適です。",
-    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
-    "partner": false,
-    "addedAt": "2026-06-07"
-  },
-  {
-    "id": "wangan-classroom-byf4sh",
-    "name": "チアダンス (ジャイアンツ ヴィーナスダンススクール)",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
-    "station": "勝どき駅 徒歩3分",
-    "ages": "3歳～小学生",
-    "price": "要問い合わせ",
-    "description": "「人を応援する気持ち」「人を魅了する技」「健康な体」を育てるメジャースポーツのチアリーディング教室です。ダンスはもちろん、挨拶などの礼儀やマナー、立ち振る舞いを身につけます。レッスンを通じて、あきらめない気持ちや他者を思いやる優しい心、チームワークを育みたい家庭に最適です。",
-    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
-    "partner": false,
-    "addedAt": "2026-06-07"
-  },
-  {
-    "id": "wangan-classroom-1nerk65",
-    "name": "空手クラス (空手スクール)",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
-    "station": "勝どき駅 徒歩3分",
-    "ages": "6歳～小学生",
-    "price": "要問い合わせ",
-    "description": "空手の突き・蹴りといった技を繰り返し練習することで、持久力・筋力・バランス・柔軟性のある『強い体』を作り上げます。礼儀作法から本格的な技まで習得し、心身の鍛錬を目指します。集中力や精神力を養い、自己防衛能力を高めたいお子様や、武道を通じて成長を促したい家庭に最適です。",
-    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
-    "partner": false,
-    "addedAt": "2026-06-07"
-  },
-  {
-    "id": "wangan-phseat-1racv4n",
-    "name": "幼児体操教室 PHSEAT（フィジート）",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
-    "station": "勝どき駅 徒歩3分",
-    "ages": "4～6歳（未就学児）～小学2年生",
-    "price": "要問い合わせ",
-    "description": "運動の動きを真似したり、リズムやビートに合わせて動いたり、簡単なアクロバットにも挑戦する総合運動体操教室です。体操と音楽、アクロバットを組み合わせ、子どもの柔軟な心とカラダを育てます。好奇心を刺激し、楽しみながら基礎体力や運動能力を向上させたい家庭に最適です。",
-    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
-    "partner": false,
-    "addedAt": "2026-06-07"
-  },
-  {
-    "id": "wangan-classroom-1m1nngs",
-    "name": "バク転・アクロバット教室 (初級)",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
-    "station": "勝どき駅 徒歩3分",
-    "ages": "小学生",
-    "price": "要問い合わせ",
-    "description": "憧れのバク転ができるようになることを目指す、体操競技経験者講師による少人数制レッスンです。楽しくカラダの使い方を学び、安全に正しいアクロバットを習得します。運動能力の向上だけでなく、目標達成の喜びや自信を育みたい家庭に最適。基礎から丁寧に指導し、無理なく挑戦できます。",
-    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
-    "partner": false,
-    "addedAt": "2026-06-07"
   }
 ]
