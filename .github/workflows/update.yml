@@ -1,4 +1,4 @@
-# 10日毎にクローラを実行し、新データをcommit。
+# 10日毎にクローラ＋口コミ総評を実行し、変更をcommit。
 # pushを検知して Cloudflare Pages が自動で再ビルド・デプロイする。
 name: auto-update
 
@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   crawl-and-commit:
@@ -26,13 +27,19 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/crawl.mjs
 
+      - name: Synthesize reviews
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/reviews.mjs
+
       - name: Commit & push if changed
         run: |
           git config user.name "tokyo-naraigoto-bot"
           git config user.email "actions@github.com"
-          if ! git diff --quiet src/data/classrooms.json; then
-            git add src/data/classrooms.json
-            git commit -m "chore: auto-update classrooms ($(date +%Y-%m-%d))"
+          git add src/data/classrooms.json data/reviews.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: auto-update classrooms & reviews ($(date +%Y-%m-%d))"
             git push
           else
             echo "変更なし。commitをスキップ"
