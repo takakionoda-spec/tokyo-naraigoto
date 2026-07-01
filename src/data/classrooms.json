@@ -822,5 +822,73 @@
     "url": "https://www.ostc.jp/",
     "partner": false,
     "addedAt": "2026-06-22"
+  },
+  {
+    "id": "wangan-nas-icobtg",
+    "name": "スポーツクラブNAS勝どき キッズ体操スクール",
+    "area": "wangan",
+    "category": "sports",
+    "niche": [
+      "sports"
+    ],
+    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
+    "station": "都営大江戸線 勝どき駅 A1出口から徒歩3分",
+    "ages": "4歳〜中学生",
+    "price": "要問い合わせ",
+    "description": "幼児から中学生までを対象とした総合的な体操スクール。幼児体操教室PHSEATでは、運動の真似やリズム運動、簡単なアクロバットを通じて柔軟な心と体を育みます。バク転・アクロバット教室では、体操競技経験者の講師が少人数制で安全かつ楽しく、正しいアクロバット技術の習得をサポートします。",
+    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
+    "partner": false,
+    "addedAt": "2026-07-01"
+  },
+  {
+    "id": "wangan-nas-1r2e100",
+    "name": "スポーツクラブNAS勝どき キッズトライアスロンスクール",
+    "area": "wangan",
+    "category": "sports",
+    "niche": [
+      "sports"
+    ],
+    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
+    "station": "都営大江戸線 勝どき駅 A1出口から徒歩3分",
+    "ages": "小学生〜中学生",
+    "price": "要問い合わせ",
+    "description": "小学生から中学生を対象とした、陸上トレーニングとスイムを組み合わせたキッズトライアスロンスクール。複数のスポーツを複合的に行うことで、全身の持久力や筋力、バランス感覚を総合的に高めます。目標に向かって努力する精神力や、困難を乗り越える力を育み、健康な体と強い心を養います。",
+    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
+    "partner": false,
+    "addedAt": "2026-07-01"
+  },
+  {
+    "id": "nerima-classroom-ygvbcm",
+    "name": "大泉スワロー体育クラブ",
+    "area": "nerima",
+    "category": "sports",
+    "niche": [
+      "sports"
+    ],
+    "address": "練馬区大泉学園",
+    "station": "大泉学園駅から徒歩10分",
+    "ages": "0歳〜12歳",
+    "price": "要問い合わせ",
+    "description": "練馬区大泉学園に位置する1961年創業の老舗体育クラブ。地域最大級の設備で、0歳からのベビー＆ママ体操、幼児期の運動の土台を育むわんぱく教室、逆上がり克服を目指す体操、トランポリンなど多様な運動プログラムを提供。運動が苦手な子も楽しく通え、基礎体力と運動能力を総合的に高めたい家庭に最適です。",
+    "url": "https://www.ostc.jp/",
+    "partner": false,
+    "addedAt": "2026-07-01"
+  },
+  {
+    "id": "nerima-classroom-zoa6cg",
+    "name": "大泉スワロー体育クラブ キッズスイムスクール",
+    "area": "nerima",
+    "category": "sports",
+    "niche": [
+      "sports"
+    ],
+    "address": "練馬区大泉学園",
+    "station": "大泉学園駅から徒歩10分",
+    "ages": "3歳〜12歳",
+    "price": "要問い合わせ",
+    "description": "練馬区大泉学園にある大泉スワロー体育クラブが提供するキッズスイムスクール。学校の水泳授業に備えたいお子様や、水泳を通じて心身の成長を促したい家庭に選ばれています。長年の指導実績と地域最大級の設備で、基礎から応用まで楽しく水泳を学べる環境です。子どもの運動能力向上と健康的な体作りをサポートします。",
+    "url": "https://www.ostc.jp/",
+    "partner": false,
+    "addedAt": "2026-07-01"
   }
 ]
