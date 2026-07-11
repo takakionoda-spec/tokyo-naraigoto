@@ -890,5 +890,72 @@
     "url": "https://www.ostc.jp/",
     "partner": false,
     "addedAt": "2026-07-01"
+  },
+  {
+    "id": "wangan-fun-and-happy-ayh095",
+    "name": "Fun and Happy（ファンアンドハッピー）英会話教室",
+    "area": "wangan",
+    "category": "language",
+    "niche": [],
+    "address": "江東区豊洲",
+    "station": "要問い合わせ",
+    "ages": "2歳〜小学生",
+    "price": "入会金あり、月謝は要問い合わせ",
+    "description": "江東区豊洲にある子ども向け英会話教室です。2歳からの親子コース、幼稚園児、小学生を対象に、英語を英語で学ぶ環境を提供。フォニックス学習を通じて読む・書く力を育み、アクティビティやゲームを取り入れた楽しいレッスンで英語を好きになることを重視しています。少人数制・母子分離で、一人ひとりとじっくり向き合う指導が特徴。イースターやハロウィンなどの季節イベントも開催し、自然に英語力が身につくようサポートします。",
+    "url": "https://www.funandhappy.jp/",
+    "partner": false,
+    "addedAt": "2026-07-11"
+  },
+  {
+    "id": "wangan-nas-1s79jk6",
+    "name": "スポーツクラブNAS勝どき ジャイアンツ ヴィーナスダンススクール",
+    "area": "wangan",
+    "category": "sports",
+    "niche": [
+      "sports"
+    ],
+    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
+    "station": "都営大江戸線 勝どき駅 A1出口から徒歩3分",
+    "ages": "3歳〜小学生",
+    "price": "要問い合わせ",
+    "description": "「人を応援する気持ち」「人を魅了する技」「健康な体」を育むチアダンススクール。ダンス技術だけでなく、挨拶などの礼儀やマナー、立ち振る舞いを身につけ、レッスンを通じて諦めない気持ちや他者を思いやる優しい心、チームワークを育みます。メジャースポーツのチアリーディングを体験できる教室です。",
+    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
+    "partner": false,
+    "addedAt": "2026-07-11"
+  },
+  {
+    "id": "wangan-nas-phseat-xfprk6",
+    "name": "スポーツクラブNAS勝どき 幼児体操教室 PHSEAT（フィジート）",
+    "area": "wangan",
+    "category": "sports",
+    "niche": [
+      "sports"
+    ],
+    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
+    "station": "都営大江戸線 勝どき駅 A1出口から徒歩3分",
+    "ages": "4歳〜小学2年生",
+    "price": "要問い合わせ",
+    "description": "運動の動きを真似したり、リズムやビートに合わせて動いたり、簡単なアクロバットにも挑戦する総合運動体操教室です。体操に音楽とアクロバットの要素を組み合わせ、子どもの柔軟な心とカラダを育てます。楽しみながら基礎運動能力を高め、好奇心と運動への喜びを育みます。",
+    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
+    "partner": false,
+    "addedAt": "2026-07-11"
+  },
+  {
+    "id": "setagaya-classroom-195usxc",
+    "name": "運動・体操教室フィジカルパーク",
+    "area": "setagaya",
+    "category": "sports",
+    "niche": [
+      "sports",
+      "juken"
+    ],
+    "address": "世田谷区東北沢",
+    "station": "東北沢駅 徒歩すぐ",
+    "ages": "0歳〜小学生",
+    "price": "要問い合わせ",
+    "description": "世田谷区東北沢駅すぐの「フィジカルパーク」は、0歳から小学生対象の運動・体操教室です。お子さまの個性に合わせたオーダーメイドプログラムを少人数制または完全個別制で提供。ビジョントレーニングやメンタルトレーニングで運動・脳機能、集中力や自主性を総合的に強化。小学校受験対策クラスでは、基礎運動能力や指示行動、行動観察をメンタルトレーナーがサポートします。スポーツのスキルアップ、苦手克服、知育にも対応し、心身両面から可能性を引き出す教室です。",
+    "url": "https://physipa.com/",
+    "partner": false,
+    "addedAt": "2026-07-11"
   }
 ]
