@@ -957,5 +957,56 @@
     "url": "https://physipa.com/",
     "partner": false,
     "addedAt": "2026-07-11"
+  },
+  {
+    "id": "wangan-classroom-naxv67",
+    "name": "中央区立総合スポーツセンター こども向けスポーツ教室",
+    "area": "wangan",
+    "category": "sports",
+    "niche": [
+      "sports"
+    ],
+    "address": "中央区日本橋浜町2丁目59番1号",
+    "station": "浜町駅（要問い合わせ）",
+    "ages": "要問い合わせ",
+    "price": "要問い合わせ",
+    "description": "中央区立総合スポーツセンターでは、こども・親子向けのスポーツ教室を定期的に開催しています。2026年には年間を通じて複数期の教室が予定されており、小学生を対象としたフロア教室などが含まれます。参加には事前の申し込みが必要で、定員を超えた場合は抽選となります。地域の子どもたちが運動を通じて健やかに成長できる機会を提供しており、スポーツでのびのびと活動したい家庭に適しています。",
+    "url": "https://www.chuo-sports.jp/school_tsukishima/",
+    "partner": false,
+    "addedAt": "2026-07-21"
+  },
+  {
+    "id": "wangan-classroom-1p96idq",
+    "name": "月島スポーツプラザ 幼児・小学生スポーツ教室",
+    "area": "wangan",
+    "category": "sports",
+    "niche": [
+      "sports"
+    ],
+    "address": "中央区月島1丁目9番2号",
+    "station": "月島駅（要問い合わせ）",
+    "ages": "幼児〜小学生",
+    "price": "要問い合わせ",
+    "description": "月島スポーツプラザでは、幼児から小学生を対象としたスポーツ教室を提供しています。年間を通じて様々なスポーツプログラムが用意されており、子どもたちが楽しみながら運動能力を向上させることを目指しています。参加には事前の申し込みが必要で、定員を超えた場合は抽選となる場合があります。地域の子どもたちが体を動かし、健康的な生活習慣を育むのに適した環境です。",
+    "url": "https://www.chuo-sports.jp/school_tsukishima/",
+    "partner": false,
+    "addedAt": "2026-07-21"
+  },
+  {
+    "id": "setagaya-classroom-634ncr",
+    "name": "世田谷ジュニアダンスカレッジ",
+    "area": "setagaya",
+    "category": "sports",
+    "niche": [
+      "sports"
+    ],
+    "address": "東京都世田谷区大蔵4-6-1",
+    "station": "要問い合わせ",
+    "ages": "幼児〜小学6年生",
+    "price": "要問い合わせ",
+    "description": "世田谷区スポーツ振興財団が提供する「世田谷ジュニアアカデミー&カレッジ」の一環として、子供たちが楽しみながら心と体を育むことを目指すスポーツスクールです。幼児から小学6年生までを対象に、専門的な指導を通じてダンスの基礎から応用までを習得できます。表現力やリズム感を養い、健全な成長をサポートします。世田谷区内の施設で活動しており、体を動かすことが好きなご家庭におすすめです。",
+    "url": "https://www.se-sports.or.jp/school/",
+    "partner": false,
+    "addedAt": "2026-07-21"
   }
 ]
