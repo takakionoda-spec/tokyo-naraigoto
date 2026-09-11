@@ -1212,5 +1212,22 @@
     "url": "https://www.ostc.jp/",
     "partner": false,
     "addedAt": "2026-09-01"
+  },
+  {
+    "id": "wangan-classroom-1ishzsd",
+    "name": "月島スポーツプラザ こどもスポーツ教室",
+    "area": "wangan",
+    "category": "sports",
+    "niche": [
+      "sports"
+    ],
+    "address": "中央区月島1丁目9番2号",
+    "station": "要問い合わせ",
+    "ages": "幼児〜小学生",
+    "price": "要問い合わせ",
+    "description": "月島スポーツプラザでは、幼児から小学生を対象としたスポーツ教室が開催されます。運動能力の向上や健康な体作りを目指し、様々なスポーツ活動を通じて子どもの成長をサポートします。具体的なコース内容や募集時期については、施設ウェブサイトや館内掲示で詳細が案内されます。お子様の体力向上や運動習慣を身につけさせたいご家庭に適しています。現在、第2期の受付は終了しており、第3期の募集が11月上旬に予定されていますので、最新情報を確認してください。",
+    "url": "https://www.chuo-sports.jp/school_tsukishima/",
+    "partner": false,
+    "addedAt": "2026-09-11"
   }
 ]
