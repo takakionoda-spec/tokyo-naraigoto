@@ -1229,5 +1229,22 @@
     "url": "https://www.chuo-sports.jp/school_tsukishima/",
     "partner": false,
     "addedAt": "2026-09-11"
+  },
+  {
+    "id": "wangan-classroom-e2d60f",
+    "name": "中央区立総合スポーツセンター こどもスポーツ教室",
+    "area": "wangan",
+    "category": "sports",
+    "niche": [
+      "sports"
+    ],
+    "address": "中央区日本橋浜町2丁目59番1号",
+    "station": "要問い合わせ",
+    "ages": "0歳〜12歳",
+    "price": "要問い合わせ",
+    "description": "中央区日本橋浜町に位置する総合スポーツセンターでは、幼児から小学生を対象とした「こどもスポーツ教室」を提供しています。コナミスポーツが指定管理者として運営しており、子どもたちが様々なスポーツ活動を通じて健やかに成長できる環境です。具体的なクラス内容は季節ごとに募集され、ホームページや館内掲示で案内されます。スポーツを通じて基礎体力や運動能力を向上させたいご家庭に適しています。",
+    "url": "https://www.chuo-sports.jp/school_tsukishima/",
+    "partner": false,
+    "addedAt": "2026-10-02"
   }
 ]
