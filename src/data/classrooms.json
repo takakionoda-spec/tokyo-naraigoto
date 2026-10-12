@@ -1246,5 +1246,39 @@
     "url": "https://www.chuo-sports.jp/school_tsukishima/",
     "partner": false,
     "addedAt": "2026-10-02"
+  },
+  {
+    "id": "wangan-classroom-xrstoq",
+    "name": "月島スポーツプラザ",
+    "area": "wangan",
+    "category": "sports",
+    "niche": [
+      "sports"
+    ],
+    "address": "中央区月島1丁目9番2号",
+    "station": "月島駅 徒歩1分",
+    "ages": "幼児〜小学6年生",
+    "price": "要問い合わせ",
+    "description": "月島スポーツプラザでは、幼児から小学生を対象としたスポーツ教室を提供しています。運動能力の向上や健康維持、集団行動を通じた社会性の育成を目指します。具体的なコース内容は要問い合わせですが、幅広い年齢層の子どもたちが楽しく運動できる環境です。中央区月島に位置し、地域の子どもたちの体力づくりをサポートします。",
+    "url": "https://www.chuo-sports.jp/school_tsukishima/",
+    "partner": false,
+    "addedAt": "2026-10-12"
+  },
+  {
+    "id": "wangan-classroom-3h78r0",
+    "name": "中央区立総合スポーツセンター",
+    "area": "wangan",
+    "category": "sports",
+    "niche": [
+      "sports"
+    ],
+    "address": "中央区日本橋浜町2丁目59番1号",
+    "station": "浜町駅 徒歩1分",
+    "ages": "0歳〜12歳",
+    "price": "要問い合わせ",
+    "description": "中央区立総合スポーツセンターでは、乳幼児から小学生を対象とした「こども・親子向け」のスポーツ教室を提供しています。親子で一緒に体を動かすクラスや、子どもたちが個々のレベルに合わせて運動能力を高めるプログラムが期待されます。地域の子どもたちの健全な成長と体力向上をサポートし、スポーツを通じて協調性や社会性を育む場です。中央区日本橋浜町に位置しています。",
+    "url": "https://www.chuo-sports.jp/school_tsukishima/",
+    "partner": false,
+    "addedAt": "2026-10-12"
   }
 ]
