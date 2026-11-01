@@ -1280,5 +1280,22 @@
     "url": "https://www.chuo-sports.jp/school_tsukishima/",
     "partner": false,
     "addedAt": "2026-10-12"
+  },
+  {
+    "id": "setagaya-classroom-1mg7ma7",
+    "name": "世田谷ジュニアアカデミー&カレッジ 新体操アカデミー",
+    "area": "setagaya",
+    "category": "sports",
+    "niche": [
+      "sports"
+    ],
+    "address": "世田谷区内",
+    "station": "要問い合わせ",
+    "ages": "幼児〜中高生",
+    "price": "要問い合わせ",
+    "description": "世田谷区が提供する「世田谷ジュニアアカデミー&カレッジ」の一環として、幼児から中高生を対象とした新体操スクールです。リボンやボールを使った表現運動を通じて、柔軟性、リズム感、表現力を養いたいお子様に最適。区内の体育館などを会場に、基礎的な動きから美しい演技まで丁寧に指導し、心身の成長と芸術性を育む機会を提供します。",
+    "url": "https://www.se-sports.or.jp/school/",
+    "partner": false,
+    "addedAt": "2026-10-31"
   }
 ]
