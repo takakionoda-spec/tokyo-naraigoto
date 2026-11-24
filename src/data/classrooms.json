@@ -1,177 +1,5 @@
 [
   {
-    "id": "toyosu-intl-kids-academy",
-    "name": "豊洲インターナショナルキッズアカデミー",
-    "area": "wangan",
-    "category": "language",
-    "niche": [
-      "international"
-    ],
-    "address": "東京都江東区豊洲2丁目",
-    "station": "豊洲駅 徒歩4分",
-    "ages": "1歳〜小学6年生",
-    "price": "月謝 32,000円〜（プリスクール）/ アフタースクール 18,000円〜",
-    "description": "ネイティブ講師が常駐するオールイングリッシュのプリスクール＆アフタースクール。インターナショナルスクール進学を見据えたフォニックスとリテラシー教育に定評があり、卒園児の多くが都内インターや英語特化私立へ進学。湾岸エリアの共働き家庭向けに19時までの延長預かりと豊洲駅送迎にも対応しています。",
-    "url": "https://example.com/toyosu-intl",
-    "partner": true,
-    "addedAt": "2026-05-28",
-    "review": {
-      "summary": "豊洲インターナショナルキッズアカデミーの体験者からは、全体的に高い満足度が示されています。在籍中の保護者からは、先生方全員が「親切で素晴らしい」という具体的な評価があり、講師陣の対応や人柄が非常に好印象を与えている様子がうかがえます。教室の雰囲気や総合的な体験についても「とてもよかった」という感想が聞かれ、子どもたちが安心して学べる環境が提供されていると感じる家庭が多いようです。ただし、具体的な指導内容、設備、料金体系などに関する詳細な言及は今回の口コミには含まれていないため、これらについては個別の確認が推奨されます。",
-      "count": 1,
-      "updatedAt": "2026-06-12"
-    }
-  },
-  {
-    "id": "setagaya-eisai-academy",
-    "name": "世田谷英才アカデミー",
-    "area": "setagaya",
-    "category": "learning",
-    "niche": [
-      "juken",
-      "international"
-    ],
-    "address": "東京都世田谷区奥沢5丁目",
-    "station": "自由が丘駅 徒歩6分",
-    "ages": "年長〜小学6年生",
-    "price": "月謝 24,200円〜 / 中学受験本科 39,600円〜",
-    "description": "御三家・難関国私立への合格実績を持つ少人数制進学塾。低学年は思考力・記述力を育てるオリジナル教材、4年生からは志望校別ゼミで中学受験に伴走します。帰国子女・インター生向けの国語キャッチアップ講座と英語受験コースを併設しており、英語力を活かした受験戦略の相談が可能です。",
-    "url": "https://example.com/setagaya-eisai",
-    "partner": true,
-    "addedAt": "2026-05-25"
-  },
-  {
-    "id": "kachidoki-jr-swimming",
-    "name": "勝どきジュニアスイミングクラブ",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "東京都中央区勝どき3丁目",
-    "station": "勝どき駅 徒歩5分",
-    "ages": "0歳6ヶ月〜小学6年生",
-    "price": "月謝 8,800円〜（週1回）",
-    "description": "ベビースイミングから選手育成コースまで揃う地域密着型スイミングクラブ。水深調節可能な温水プールと専任コーチの少人数指導で、水慣れから4泳法習得まで段階的に伸ばします。進級テストは毎月実施。タワーマンションが立ち並ぶ勝どき・月島エリアの送迎しやすい立地が共働き家庭に人気です。",
-    "url": "https://example.com/kachidoki-swim",
-    "partner": false,
-    "addedAt": "2026-05-20"
-  },
-  {
-    "id": "ariake-shingaku-zemi",
-    "name": "有明進学ゼミ 小学部",
-    "area": "wangan",
-    "category": "learning",
-    "niche": [
-      "juken"
-    ],
-    "address": "東京都江東区有明1丁目",
-    "station": "有明駅 徒歩3分",
-    "ages": "小学1年生〜6年生",
-    "price": "月謝 16,500円〜 / 受験コース 33,000円〜",
-    "description": "湾岸エリアの中学受験に特化した小規模塾。1クラス8名までの完全少人数制で、講師が答案を毎回添削し家庭学習の計画まで管理します。豊洲・有明の新興校から伝統校まで幅広い合格実績があり、初めての中学受験で「何から始めればいいか分からない」家庭向けの低学年準備講座も開講中です。",
-    "url": "https://example.com/ariake-zemi",
-    "partner": false,
-    "addedAt": "2026-05-18"
-  },
-  {
-    "id": "toyosu-robot-lab",
-    "name": "豊洲ロボットプログラミングLab",
-    "area": "wangan",
-    "category": "learning",
-    "niche": [],
-    "address": "東京都江東区豊洲5丁目",
-    "station": "豊洲駅 徒歩7分",
-    "ages": "年中〜小学6年生",
-    "price": "月謝 12,100円〜（月2回）",
-    "description": "レゴ®ブロックとScratchを使い、遊びながら論理的思考を育てるSTEM教室。学年別カリキュラムでロボット製作からPython入門まで段階的にステップアップでき、毎年夏にはロボコン形式の発表会を開催します。理系好きのお子さまの「没頭できる場所」として湾岸エリアで口コミ評価の高い教室です。",
-    "url": "https://example.com/toyosu-robot",
-    "partner": false,
-    "addedAt": "2026-05-15"
-  },
-  {
-    "id": "komazawa-soccer-school",
-    "name": "駒沢サッカースクール U-12",
-    "area": "setagaya",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "東京都世田谷区駒沢公園1丁目",
-    "station": "駒沢大学駅 徒歩12分",
-    "ages": "年少〜小学6年生",
-    "price": "月謝 7,700円〜（週1回）",
-    "description": "駒沢オリンピック公園の天然芝・人工芝グラウンドで活動する地域クラブ。元Jリーグ下部組織コーチ陣が「勝敗より挑戦」を合言葉に、一人ひとりのプレー回数を最大化する少人数トレーニングを実施します。試合経験を積みたい子には週末リーグ参加枠もあり、のびのび系から本格志向まで幅広く対応。",
-    "url": "https://example.com/komazawa-soccer",
-    "partner": false,
-    "addedAt": "2026-05-12"
-  },
-  {
-    "id": "sangenjaya-english-house",
-    "name": "三軒茶屋イングリッシュハウス",
-    "area": "setagaya",
-    "category": "language",
-    "niche": [
-      "international"
-    ],
-    "address": "東京都世田谷区太子堂4丁目",
-    "station": "三軒茶屋駅 徒歩3分",
-    "ages": "2歳〜小学6年生",
-    "price": "月謝 11,000円〜（週1回50分）",
-    "description": "一軒家を丸ごと英語空間にした「英語のおうち」がコンセプトのスクール。歌と絵本のトドラークラスから英検・ケンブリッジ英検対策クラスまで、ネイティブと日本人講師のペアティーチングで運営します。インター転入を見据えた集中プログラムや、年2回の英語キャンプなど実践機会が豊富です。",
-    "url": "https://example.com/sancha-english",
-    "partner": false,
-    "addedAt": "2026-05-10"
-  },
-  {
-    "id": "nerima-ohshin-juku",
-    "name": "練馬中学受験専門 桜進塾",
-    "area": "nerima",
-    "category": "learning",
-    "niche": [
-      "juken"
-    ],
-    "address": "東京都練馬区練馬1丁目",
-    "station": "練馬駅 徒歩2分",
-    "ages": "小学3年生〜6年生",
-    "price": "月謝 28,600円〜（4科目）",
-    "description": "練馬区内の中学受験に20年特化してきた地域密着塾。大手塾のカリキュラムについていけなくなった子の「立て直し」に強く、単元別の戻り学習と個別補習を組み合わせて基礎から積み直します。都立中高一貫（大泉高附属など）の適性検査対策コースも設置し、私立・都立の併願戦略まで相談できます。",
-    "url": "https://example.com/nerima-ohshin",
-    "partner": false,
-    "addedAt": "2026-05-08"
-  },
-  {
-    "id": "hikarigaoka-gym-club",
-    "name": "光が丘体操クラブ",
-    "area": "nerima",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "東京都練馬区光が丘2丁目",
-    "station": "光が丘駅 徒歩6分",
-    "ages": "1歳6ヶ月〜小学6年生",
-    "price": "月謝 6,600円〜（週1回）",
-    "description": "マット・跳び箱・鉄棒の「学校体育3種」を中心に、運動が苦手な子も楽しく体を動かせる体操教室。親子体操から選手育成クラスまで7段階のレベル分けで、逆上がりや跳び箱への苦手意識を小さな成功体験で解消していきます。体育の授業に自信を持たせたい家庭から、本格的に体操競技を目指す子まで対応。",
-    "url": "https://example.com/hikarigaoka-gym",
-    "partner": false,
-    "addedAt": "2026-05-05"
-  },
-  {
-    "id": "oizumi-piano-eurythmics",
-    "name": "大泉学園ピアノ・リトミック教室 おとのもり",
-    "area": "nerima",
-    "category": "other",
-    "niche": [],
-    "address": "東京都練馬区東大泉3丁目",
-    "station": "大泉学園駅 徒歩5分",
-    "ages": "0歳〜小学6年生",
-    "price": "月謝 6,000円〜（リトミック）/ ピアノ個人 9,000円〜",
-    "description": "0歳から親子で通えるリトミックと、3歳からのピアノ個人レッスンを行う自宅サロン型教室。絶対音感トレーニングとソルフェージュを取り入れ、音大卒の講師が一人ひとりのペースに合わせて指導します。発表会は年1回、地域ホールで開催。きょうだい割引があり、未就園児の習い事デビューに人気です。",
-    "url": "https://example.com/oizumi-otonomori",
-    "partner": false,
-    "addedAt": "2026-05-02"
-  },
-  {
     "id": "wangan-ecckids-1pn61pn",
     "name": "ECCKIDS 豊洲校",
     "area": "wangan",
@@ -184,7 +12,8 @@
     "description": "ECCKIDS豊洲校は、1歳半から小学6年生までを対象とした子供英会話教室です。豊洲駅徒歩2分のスーパービバホーム豊洲2階に位置し、駐車場も利用可能。オールイングリッシュの環境で、歌やダンス、絵本などのアクティビティを通じて楽しく英語に触れ、小学生では「聞く・話す・読む・書く」の4技能をバランス良く育成します。ECC独自の厳しい基準を満たした外国人講師とバイリンガル講師が、年齢に合わせたオリジナル教材を使用し、お子さま一人ひとりの成長をサポート。スーパーマ",
     "url": "https://www.kids.ecc.jp/school/tokyo/toyosu/",
     "partner": false,
-    "addedAt": "2026-06-07"
+    "addedAt": "2026-06-07",
+    "sourceUrl": "https://www.kids.ecc.jp/school/tokyo/toyosu/"
   },
   {
     "id": "wangan-fun-and-happy-12e184q",
@@ -199,7 +28,8 @@
     "description": "「Fun and Happy」は江東区豊洲にある2歳から小学生向けの英会話教室です。英語を英語で学ぶ環境で、フォニックス学習を通じて読む・書く力を育みます。アクティビティやゲームを取り入れた楽しい少人数制レッスンで、子どもたちが自然に英語を好きになることを重視。母子分離クラスで、一人ひとりと丁寧に向き合いながら英語力を伸ばします。",
     "url": "https://www.funandhappy.jp/",
     "partner": false,
-    "addedAt": "2026-06-07"
+    "addedAt": "2026-06-07",
+    "sourceUrl": "https://www.funandhappy.jp/"
   },
   {
     "id": "wangan-nas-er0gh1",
@@ -216,7 +46,8 @@
     "description": "生まれたばかりの赤ちゃんから小中学生までを対象に、泳ぐ楽しさから高い運動能力と心の強さを養う充実のカリキュラムを提供。水に慣れ親しむことから4泳法の習得、さらに着衣水泳まで指導。自主性や協調性、集中力、判断力を育み、水を通じて心身の成長をサポートします。",
     "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
     "partner": false,
-    "addedAt": "2026-06-07"
+    "addedAt": "2026-06-07",
+    "sourceUrl": "https://www.nas-club.co.jp/kachidoki/kids/index.html"
   },
   {
     "id": "wangan-nas-q2t1qx",
@@ -233,7 +64,8 @@
     "description": "プロダンサーの指導のもと、楽しく全身を動かしながら基礎体力やリズム感を養うダンススクール。エイベックス・アーティストアカデミー開発プログラムを導入し、初心者から経験者まで対応。挨拶や礼儀も重視し、子どもらしい明るさや表現力を伸ばし、エンターテイメントシーンで活躍する講師陣が直接指導します。",
     "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
     "partner": false,
-    "addedAt": "2026-06-07"
+    "addedAt": "2026-06-07",
+    "sourceUrl": "https://www.nas-club.co.jp/kachidoki/kids/index.html"
   },
   {
     "id": "wangan-nas-m45qgn",
@@ -250,7 +82,8 @@
     "description": "ダンスだけでなく、挨拶や礼儀、マナー、立ち振る舞いを身につけるチアダンススクール。レッスンを通じて、あきらめない気持ちや他者を思いやる優しい心、チームワークを育みます。メジャースポーツのチアリーディング教室として、人を応援する気持ちと人を魅了する技、健康な体を育むことを目指します。",
     "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
     "partner": false,
-    "addedAt": "2026-06-07"
+    "addedAt": "2026-06-07",
+    "sourceUrl": "https://www.nas-club.co.jp/kachidoki/kids/index.html"
   },
   {
     "id": "wangan-nas-682fb9",
@@ -267,7 +100,8 @@
     "description": "空手の突き・蹴りといった技を繰り返し練習することで、持久力・筋力・バランス・柔軟性のある『強い体』を作り上げるスクール。礼儀作法から空手の本格的な技まで習得し、心身ともに成長を促します。集中力や精神力を高めながら、武道の精神を学び、自己肯定感を育むことを目指します。",
     "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
     "partner": false,
-    "addedAt": "2026-06-07"
+    "addedAt": "2026-06-07",
+    "sourceUrl": "https://www.nas-club.co.jp/kachidoki/kids/index.html"
   },
   {
     "id": "wangan-nas-phseat-12874lw",
@@ -284,7 +118,8 @@
     "description": "運動の動きを真似したり、リズムに合わせて動いたり、簡単なアクロバットにも挑戦する総合運動体操教室。幼児から小学生までを対象に、柔軟な心と体を育みます。体操競技経験者の講師による少人数制レッスンで、憧れのバク転やアクロバットを安全に楽しく習得し、体の使い方を学びます。",
     "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
     "partner": false,
-    "addedAt": "2026-06-07"
+    "addedAt": "2026-06-07",
+    "sourceUrl": "https://www.nas-club.co.jp/kachidoki/kids/index.html"
   },
   {
     "id": "wangan-classroom-wyogjk",
@@ -301,7 +136,8 @@
     "description": "中央区日本橋浜町に位置する総合スポーツセンターでは、こども・親子向けのスポーツ教室を提供しています。次期（9月～12月）の募集詳細は7月上旬にホームページにて案内予定です。地域の子どもたちが様々なスポーツに触れ、健康的に体を動かす機会を提供しています。具体的なプログラムや対象年齢は要問い合わせとなりますが、幅広いスポーツ活動が期待されます。",
     "url": "https://www.chuo-sports.jp/school_tsukishima/",
     "partner": false,
-    "addedAt": "2026-06-07"
+    "addedAt": "2026-06-07",
+    "sourceUrl": "https://www.chuo-sports.jp/school_tsukishima/"
   },
   {
     "id": "wangan-classroom-1sf2wle",
@@ -318,7 +154,8 @@
     "description": "中央区月島にある月島スポーツプラザでは、幼児から小学生を対象としたスポーツ教室を開催しています。次期（9月～12月）の募集詳細は7月上旬に発表予定です。地域の子どもたちが運動を通じて体力向上や協調性を育む場を提供しており、多様なスポーツプログラムが期待されます。詳細は施設へ直接お問い合わせください。",
     "url": "https://www.chuo-sports.jp/school_tsukishima/",
     "partner": false,
-    "addedAt": "2026-06-07"
+    "addedAt": "2026-06-07",
+    "sourceUrl": "https://www.chuo-sports.jp/school_tsukishima/"
   },
   {
     "id": "setagaya-classroom-99xpyg",
@@ -335,7 +172,8 @@
     "description": "世田谷区スポーツ振興財団が提供する「世田谷ジュニアアカデミー&カレッジ」の一環として、水泳の習い事を提供しています。幼児から中学生（0歳〜12歳を含む）までを対象に、子どもたちが楽しみながら心と体を育むことを目指します。水泳を通じて基礎体力や運動能力の向上を図り、健康的な成長をサポート。世田谷区内の複数の温水プール施設で実施される可能性があり、水泳を始めたいお子様や、水に親しませたいご家庭に最適です。具体的な開催場所やコース詳細は、財団のウェブサイトでご確",
     "url": "https://www.se-sports.or.jp/school/",
     "partner": false,
-    "addedAt": "2026-06-07"
+    "addedAt": "2026-06-07",
+    "sourceUrl": "https://www.se-sports.or.jp/school/"
   },
   {
     "id": "setagaya-classroom-vzg0to",
@@ -352,7 +190,8 @@
     "description": "世田谷区スポーツ振興財団が運営する「世田谷ジュニアアカデミー&カレッジ」のフットボールプログラムです。幼児から中学生（0歳〜12歳を含む）までを対象に、サッカーを通じて子どもたちの心身の健全な育成を支援します。楽しみながら運動能力やチームワークを養い、スポーツの基礎を学ぶことができます。世田谷区内の運動場などで開催されると推測され、サッカーに興味のあるお子様や、集団でのスポーツ活動を通じて成長を促したいご家庭におすすめです。詳細は財団のウェブサイトをご確認",
     "url": "https://www.se-sports.or.jp/school/",
     "partner": false,
-    "addedAt": "2026-06-07"
+    "addedAt": "2026-06-07",
+    "sourceUrl": "https://www.se-sports.or.jp/school/"
   },
   {
     "id": "setagaya-classroom-160214b",
@@ -369,7 +208,8 @@
     "description": "世田谷区スポーツ振興財団が提供する「世田谷ジュニアアカデミー&カレッジ」の器械運動プログラムです。幼児から中学生（0歳〜12歳を含む）までを対象に、体操や器械運動を通じて、楽しみながら体の使い方やバランス感覚、柔軟性を育みます。基礎的な運動能力を高め、様々なスポーツに応用できる身体づくりを目指します。世田谷区内の体育館などで開催されると推測され、運動神経を向上させたいお子様や、全身運動を通じて健康的な成長を願うご家庭に適しています。詳細は財団のウェブサイト",
     "url": "https://www.se-sports.or.jp/school/",
     "partner": false,
-    "addedAt": "2026-06-07"
+    "addedAt": "2026-06-07",
+    "sourceUrl": "https://www.se-sports.or.jp/school/"
   },
   {
     "id": "setagaya-classroom-155kmod",
@@ -386,7 +226,8 @@
     "description": "世田谷体操教室三宿校は、集団での体操指導を通じて、お子様の心と体の成長を育むことを目指します。思いやり、協調性、忍耐力、創造力、自主性といった心の育成に重点を置き、健康的な身体形成をサポート。なわとび、マット、鉄棒、跳び箱などの種目を通じて、運動能力だけでなく、社会性や精神力も養います。無料体験練習会も実施しており、お子様の可能性を広げたいご家庭に最適です。夏休みプログラムも提供し、年間を通じてお子様の成長を応援します。",
     "url": "https://www.sportsproject.co.jp/setagayataisou/",
     "partner": false,
-    "addedAt": "2026-06-07"
+    "addedAt": "2026-06-07",
+    "sourceUrl": "https://www.sportsproject.co.jp/setagayataisou/"
   },
   {
     "id": "setagaya-classroom-7zn82a",
@@ -401,7 +242,8 @@
     "description": "世田谷区桜丘にある個人宅のピアノ教室です。小田急線千歳船橋駅からバス便も利用しやすい立地。大手音楽教室での指導経験を持つ講師が、アットホームな雰囲気の中で細やかな指導を行います。4歳からの「こどもピアノコース」では、コンクールや音楽学校受験には対応せず、小学校卒業までにピアノの基礎力を身につけることを目指します。中学生以降も、生徒さん個々の目標に合わせたサポートを提供し、ピアノが生涯の心の支えとなるよう丁寧に指導します。指導歴29年のベテラン講師が、生徒一",
     "url": "https://www.pianosetagaya.com/",
     "partner": false,
-    "addedAt": "2026-06-07"
+    "addedAt": "2026-06-07",
+    "sourceUrl": "https://www.pianosetagaya.com/"
   },
   {
     "id": "setagaya-0-1s7ydpf",
@@ -419,143 +261,8 @@
     "description": "0歳から小学生を対象とした運動・体操教室「フィジカルパーク」。一人ひとりの発育・成長と個性に合わせたオーダーメイドプログラムが特徴です。少人数制グループレッスンと完全個別指導を選べ、ビジョントレーニングやメンタルボディーマップトレーニングで運動機能と脳機能を強化します。小学校受験対策クラスも充実し、基礎運動能力から指示行動、行動観察までをカバー。スポーツのスキルアップ、苦手克服、メンタル強化など、幅広いニーズに対応し、お子さまの可能性を最大限に引き出します",
     "url": "https://physipa.com/",
     "partner": false,
-    "addedAt": "2026-06-07"
-  },
-  {
-    "id": "wangan-nas-c8oi3a",
-    "name": "スポーツクラブNAS勝どき キッズダンススクール",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
-    "station": "勝どき駅 徒歩3分",
-    "ages": "3歳〜中学生",
-    "price": "要問い合わせ",
-    "description": "エイベックス・アーティストアカデミー開発のダンスプログラムと、ジャイアンツヴィーナスダンススクールを併設。エイベックスダンスマスターでは、プロダンサーの指導のもと、初心者から経験者まで楽しく体を動かし、基礎体力やリズム感、表現力を養う。チアダンススクールでは、ダンス技術に加え、挨拶や礼儀、マナー、チームワークを重視し、人を応援する気持ちや思いやりの心を育む。",
-    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
-    "partner": false,
-    "addedAt": "2026-06-12"
-  },
-  {
-    "id": "wangan-nas-1yp0i6e",
-    "name": "スポーツクラブNAS勝どき キッズ体操・アクロバットスクール",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
-    "station": "勝どき駅 徒歩3分",
-    "ages": "4歳〜中学生",
-    "price": "要問い合わせ",
-    "description": "幼児体操教室PHSEATとバク転・アクロバット教室を併設。PHSEATでは、運動の動きを真似したり、リズムやビートに合わせて動いたり、簡単なアクロバットにも挑戦し、体操・音楽・アクロバットを通じて子どもの柔軟な心と体を育む。バク転・アクロバット教室では、体操競技経験者の講師による少人数制レッスンで、安全に正しいアクロバット技術を習得し、憧れのバク転を目指す。",
-    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
-    "partner": false,
-    "addedAt": "2026-06-12"
-  },
-  {
-    "id": "wangan-classroom-1ye72gm",
-    "name": "中央区立総合スポーツセンター 月島スポーツプラザ",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区月島1丁目9番2号",
-    "station": "月島駅",
-    "ages": "幼児〜小学生",
-    "price": "要問い合わせ",
-    "description": "中央区立総合スポーツセンター月島スポーツプラザでは、幼児から小学生を対象としたスポーツ教室を提供しています。水泳やフロア運動など、多様な運動プログラムを通じて子どもの健全な成長をサポート。コナミスポーツが指定管理者として運営しており、質の高い指導が期待できます。月島エリアで体を動かす習い事を探しているご家庭に最適です。定期的に新しい教室の募集が行われるため、最新情報はウェブサイトで確認できます。",
-    "url": "https://www.chuo-sports.jp/school_tsukishima/",
-    "partner": false,
-    "addedAt": "2026-06-12"
-  },
-  {
-    "id": "setagaya-classroom-j6drfk",
-    "name": "世田谷ジュニアアスレティクスアカデミー",
-    "area": "setagaya",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "世田谷区内各施設",
-    "station": "要問い合わせ",
-    "ages": "幼児〜中学生",
-    "price": "要問い合わせ",
-    "description": "世田谷区が提供する「世田谷ジュニアアカデミー&カレッジ」の一環で、子どもたちが楽しみながら心と体を育む陸上競技プログラムです。幼児から中高生まで幅広い年齢層が対象で、スポーツを通じて基礎体力や運動能力の向上を目指します。世田谷区内の様々な施設で実施されており、陸上競技に興味があるお子様や、のびのびと体を動かしたいご家庭に最適です。",
-    "url": "https://www.se-sports.or.jp/school/",
-    "partner": false,
-    "addedAt": "2026-06-12"
-  },
-  {
-    "id": "setagaya-classroom-1m4ncg9",
-    "name": "世田谷ジュニアフットボールアカデミー",
-    "area": "setagaya",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "世田谷区内各施設",
-    "station": "要問い合わせ",
-    "ages": "幼児〜中学生",
-    "price": "要問い合わせ",
-    "description": "世田谷区が提供する「世田谷ジュニアアカデミー&カレッジ」の一環で、子どもたちが楽しみながら心と体を育むサッカープログラムです。幼児から中高生まで幅広い年齢層が対象で、スポーツを通じて基礎体力や運動能力の向上を目指します。世田谷区内の様々な施設で実施されており、サッカーに興味があるお子様や、のびのびと体を動かしたいご家庭に最適です。",
-    "url": "https://www.se-sports.or.jp/school/",
-    "partner": false,
-    "addedAt": "2026-06-12"
-  },
-  {
-    "id": "setagaya-classroom-zo76ko",
-    "name": "世田谷ジュニア器械運動アカデミー",
-    "area": "setagaya",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "世田谷区内各施設",
-    "station": "要問い合わせ",
-    "ages": "幼児〜中学生",
-    "price": "要問い合わせ",
-    "description": "世田谷区が提供する「世田谷ジュニアアカデミー&カレッジ」の一環で、子どもたちが楽しみながら心と体を育む器械運動プログラムです。幼児から中高生まで幅広い年齢層が対象で、スポーツを通じて基礎体力や運動能力の向上を目指します。世田谷区内の様々な施設で実施されており、体操やアクロバットに興味があるお子様や、のびのびと体を動かしたいご家庭に最適です。",
-    "url": "https://www.se-sports.or.jp/school/",
-    "partner": false,
-    "addedAt": "2026-06-12"
-  },
-  {
-    "id": "setagaya-classroom-1obpv39",
-    "name": "世田谷ジュニアベースボールアカデミー",
-    "area": "setagaya",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "世田谷区内各施設",
-    "station": "要問い合わせ",
-    "ages": "幼児〜中学生",
-    "price": "要問い合わせ",
-    "description": "世田谷区が提供する「世田谷ジュニアアカデミー&カレッジ」の一環で、子どもたちが楽しみながら心と体を育む野球プログラムです。幼児から中高生まで幅広い年齢層が対象で、スポーツを通じて基礎体力や運動能力の向上を目指します。世田谷区内の様々な施設で実施されており、野球に興味があるお子様や、のびのびと体を動かしたいご家庭に最適です。",
-    "url": "https://www.se-sports.or.jp/school/",
-    "partner": false,
-    "addedAt": "2026-06-12"
-  },
-  {
-    "id": "setagaya-classroom-q5pkyz",
-    "name": "世田谷ジュニアスイミングアカデミー",
-    "area": "setagaya",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "世田谷区内の温水プール施設",
-    "station": "要問い合わせ",
-    "ages": "幼児〜中学生",
-    "price": "要問い合わせ",
-    "description": "世田谷区が提供する「世田谷ジュニアアカデミー&カレッジ」の一環で、子どもたちが楽しみながら心と体を育む水泳プログラムです。幼児から中高生まで幅広い年齢層が対象で、スポーツを通じて基礎体力や運動能力の向上を目指します。世田谷区内の温水プール施設で実施されており、水泳に興味があるお子様や、のびのびと体を動かしたいご家庭に最適です。",
-    "url": "https://www.se-sports.or.jp/school/",
-    "partner": false,
-    "addedAt": "2026-06-12"
+    "addedAt": "2026-06-07",
+    "sourceUrl": "https://physipa.com/"
   },
   {
     "id": "nerima-crefus-v1ifcp",
@@ -570,7 +277,8 @@
     "description": "ロボット科学教育Crefus練馬校は、レゴ®教材を用いたロボット製作とプログラミングを通じて、子どもたちの知的好奇心と創造力を育む教室です。「楽しくなければ、学びではない」をモットーに、年長から小学6年生以上を対象に、算数や理科が好きになるようなワクワクする学びを提供。FLL全国大会出場実績もあり、明るく楽しい先生たちと、論理的思考力や問題解決能力を養いたい家庭におすすめです。",
     "url": "https://crefus.com/classroom/single/87",
     "partner": false,
-    "addedAt": "2026-06-12"
+    "addedAt": "2026-06-12",
+    "sourceUrl": "https://crefus.com/classroom/single/87"
   },
   {
     "id": "nerima-classroom-92fm74",
@@ -585,7 +293,8 @@
     "description": "練馬プログラミング教室は、練馬駅から徒歩2分の好立地で、年中（5歳）から高校生までを対象としたプログラミングスクールです。現役IT経営者が直接指導し、Scratchやテキストプログラミングを通じて、論理的思考力や問題解決能力、創造力を育みます。小学校のプログラミング教育では不足しがちな実践的な学習を重視し、動画と個別サポートで「できた！」という成功体験を積み重ね、子どもの自信と主体性を養います。ジュニア・プログラミング検定の認定校で、慣れた環境で受験可能。",
     "url": "https://programming.nerima.cc/",
     "partner": false,
-    "addedAt": "2026-06-12"
+    "addedAt": "2026-06-12",
+    "sourceUrl": "https://programming.nerima.cc/"
   },
   {
     "id": "nerima-classroom-15ea5lb",
@@ -602,7 +311,8 @@
     "description": "練馬区にあるスポーツクラブ南光が提供する子ども向けスイミングスクールです。基礎から応用まで、年齢やレベルに合わせた指導で、水泳技術の向上と体力づくりをサポートします。安全水泳週間などの取り組みもあり、安心して通わせたい保護者の方におすすめです。地域に根差した環境で、楽しく水に親しみながら運動能力を伸ばせます。",
     "url": "https://www.s-nanko.com/",
     "partner": false,
-    "addedAt": "2026-06-12"
+    "addedAt": "2026-06-12",
+    "sourceUrl": "https://www.s-nanko.com/"
   },
   {
     "id": "nerima-classroom-k6if4",
@@ -619,7 +329,8 @@
     "description": "練馬区のスポーツクラブ南光が運営する子ども向けダンススクールです。リズム感や表現力を養いながら、楽しく体を動かすことができます。体験クラスや区民スポーツ大会への参加機会もあり、発表の場を通じて自信を育むことができます。運動が苦手な子でも、ダンスを通して協調性や創造性を育みたい家庭に最適です。",
     "url": "https://www.s-nanko.com/",
     "partner": false,
-    "addedAt": "2026-06-12"
+    "addedAt": "2026-06-12",
+    "sourceUrl": "https://www.s-nanko.com/"
   },
   {
     "id": "nerima-classroom-1wrff0g",
@@ -636,7 +347,8 @@
     "description": "練馬区にあるスポーツクラブ南光が提供する子ども向け体操スクールです。マット運動や跳び箱など、様々な運動を通して、子どもの基礎体力や運動能力を総合的に高めます。バランス感覚や柔軟性、集中力を養い、運動の楽しさを伝えます。体を動かすことが好きな子や、運動能力の土台をしっかり作りたい家庭におすすめです。",
     "url": "https://www.s-nanko.com/",
     "partner": false,
-    "addedAt": "2026-06-12"
+    "addedAt": "2026-06-12",
+    "sourceUrl": "https://www.s-nanko.com/"
   },
   {
     "id": "nerima-classroom-nmdv8v",
@@ -653,7 +365,8 @@
     "description": "1961年創業の歴史を持つ練馬区大泉学園の体育クラブ。全てのスポーツの基礎となる体操を、地域最大級の設備で指導します。子どもの運動能力を伸ばし、「できた！」の喜びを積み重ねることを重視。幼児から小学生まで、楽しく体を動かしながら基礎体力や協調性を育みたいご家庭におすすめです。",
     "url": "https://www.ostc.jp/",
     "partner": false,
-    "addedAt": "2026-06-12"
+    "addedAt": "2026-06-12",
+    "sourceUrl": "https://www.ostc.jp/"
   },
   {
     "id": "nerima-classroom-rapg2c",
@@ -670,41 +383,8 @@
     "description": "練馬区大泉学園で1961年から続く体育クラブの水泳教室。地域最大級の設備で、ベビーから子どもまで幅広い年齢層に対応しています。水泳を通じて運動能力向上だけでなく、心肺機能強化や協調性も育みます。初めての習い事としても最適で、楽しく水に親しみながら健康な体づくりを目指したいご家庭に選ばれています。",
     "url": "https://www.ostc.jp/",
     "partner": false,
-    "addedAt": "2026-06-12"
-  },
-  {
-    "id": "wangan-nas-1o4kw7z",
-    "name": "スポーツクラブNAS勝どき エイベックスダンスマスター",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
-    "station": "都営大江戸線 勝どき駅 A1出口から徒歩3分",
-    "ages": "5歳～中学生",
-    "price": "要問い合わせ",
-    "description": "NAS勝どきのエイベックスダンスマスターは、5歳から中学生までを対象に、プロダンサーの指導で楽しく体を動かし、基礎体力やリズム感を養います。エイベックス・アーティストアカデミー開発のプログラムで、初心者から経験者まで対応。挨拶や礼儀も重視し、日本のエンタテイメントシーンで活躍する講師陣が直接指導することで、子どもらしい明るさや表現力を伸ばします。",
-    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
-    "partner": false,
-    "addedAt": "2026-06-22"
-  },
-  {
-    "id": "wangan-nas-1hr7cej",
-    "name": "スポーツクラブNAS勝どき キッズ空手スクール",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
-    "station": "都営大江戸線 勝どき駅 A1出口から徒歩3分",
-    "ages": "6歳～小学生",
-    "price": "要問い合わせ",
-    "description": "NAS勝どきのキッズ空手スクールは、6歳から小学生を対象に、礼儀作法から空手の本格的な技までを習得します。突きや蹴りといった技の練習を繰り返すことで、持久力、筋力、バランス、柔軟性のある強い体を作り上げます。武道を通じて集中力や精神力を養い、心身ともに成長できる環境を提供し、子どもたちの健全な育成をサポートします。",
-    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
-    "partner": false,
-    "addedAt": "2026-06-22"
+    "addedAt": "2026-06-12",
+    "sourceUrl": "https://www.ostc.jp/"
   },
   {
     "id": "setagaya-classroom-1p2feot",
@@ -721,92 +401,8 @@
     "description": "世田谷区スポーツ振興財団が提供する「世田谷ジュニアアカデミー&カレッジ」のアスレティクスプログラム。子供たちが楽しみながら心と体を育む陸上競技の習い事です。幼児から中高生までを対象とし、基本的な運動能力の向上だけでなく、協調性や精神力も養います。世田谷区内の複数の施設で実施され、お子様の成長をサポートしたいご家庭に最適です。詳細な日程や会場は要問い合わせ。",
     "url": "https://www.se-sports.or.jp/school/",
     "partner": false,
-    "addedAt": "2026-06-22"
-  },
-  {
-    "id": "nerima-classroom-1yboc44",
-    "name": "スポーツクラブ南光 ジュニアスイミングスクール",
-    "area": "nerima",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "東京都練馬区貫井４-２８-6",
-    "station": "要問い合わせ",
-    "ages": "要問い合わせ",
-    "price": "要問い合わせ",
-    "description": "スポーツクラブ南光のジュニアスイミングスクールは、練馬区で長年親しまれる総合スポーツクラブが運営。水泳を通じて子どもの心身の成長をサポートします。夏休みには短期水泳教室も開催され、初心者から経験者までレベルに応じた指導が受けられます。区民大会でのメダル獲得実績もあり、本格的に水泳に取り組みたいお子様にも適しています。体力向上や水慣れ、泳力アップを目指す家庭におすすめです。",
-    "url": "https://www.s-nanko.com/",
-    "partner": false,
-    "addedAt": "2026-06-22"
-  },
-  {
-    "id": "nerima-classroom-14hob7p",
-    "name": "スポーツクラブ南光 キッズダンススクール",
-    "area": "nerima",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "東京都練馬区貫井４-２８-6",
-    "station": "要問い合わせ",
-    "ages": "要問い合わせ",
-    "price": "要問い合わせ",
-    "description": "スポーツクラブ南光のキッズダンススクールは、練馬区に根差した総合スポーツクラブで開講。子どもたちが音楽に合わせて体を動かす楽しさを体験し、リズム感や表現力を育むことができます。運動能力の向上だけでなく、協調性や自己表現の力を養う場としても最適です。初心者のお子様も安心して始められる環境で、楽しくダンスを学びたいご家庭におすすめです。",
-    "url": "https://www.s-nanko.com/",
-    "partner": false,
-    "addedAt": "2026-06-22"
-  },
-  {
-    "id": "nerima-classroom-a3j5j9",
-    "name": "スポーツクラブ南光 キッズ体操スクール",
-    "area": "nerima",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "東京都練馬区貫井４-２８-6",
-    "station": "要問い合わせ",
-    "ages": "要問い合わせ",
-    "price": "要問い合わせ",
-    "description": "スポーツクラブ南光のキッズ体操スクールは、練馬区の地域密着型スポーツクラブで提供。マット運動や跳び箱、鉄棒など、様々な運動を通じて子どもの基礎体力や運動能力を総合的に高めます。バランス感覚や柔軟性、集中力を養い、運動神経の発達を促します。体を動かすことが好きなお子様や、運動能力をバランス良く伸ばしたいご家庭に最適な環境です。",
-    "url": "https://www.s-nanko.com/",
-    "partner": false,
-    "addedAt": "2026-06-22"
-  },
-  {
-    "id": "nerima-classroom-yw9hc9",
-    "name": "大泉スワロー体育クラブ 体操スクール",
-    "area": "nerima",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "練馬区大泉学園",
-    "station": "大泉学園駅から徒歩10分",
-    "ages": "幼児〜小学生",
-    "price": "要問い合わせ",
-    "description": "練馬区大泉学園に位置する1961年創業の歴史ある体育クラブ。全てのスポーツの基礎となる体操指導に定評があり、運動が苦手な子どもから得意な子どもまで、一人ひとりのレベルに合わせた丁寧な指導を提供。幼児向けの「わんぱく教室」では、遊びを通して運動の土台を育み、身体能力と自信を養います。地域最大級の設備で、子どもたちが楽しく身体を動かせる環境が魅力です。",
-    "url": "https://www.ostc.jp/",
-    "partner": false,
-    "addedAt": "2026-06-22"
-  },
-  {
-    "id": "nerima-classroom-yj165o",
-    "name": "大泉スワロー体育クラブ スイミングスクール",
-    "area": "nerima",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "練馬区大泉学園",
-    "station": "大泉学園駅から徒歩10分",
-    "ages": "0歳〜小学生",
-    "price": "要問い合わせ",
-    "description": "練馬区大泉学園にある歴史ある総合体育クラブが提供するスイミングスクール。東大生に人気だった習い事の一つとして紹介されるなど、子どもの成長を支える習い事として推奨されています。初めての習い事にも最適で、ベビーから小学生まで幅広い年齢の子どもたちが対象。水に親しみながら心身の発達を促し、基礎体力や運動能力を向上させます。地域最大級の設備で、安全かつ楽しく水泳を学べる環境です。",
-    "url": "https://www.ostc.jp/",
-    "partner": false,
-    "addedAt": "2026-06-22"
+    "addedAt": "2026-06-22",
+    "sourceUrl": "https://www.se-sports.or.jp/school/"
   },
   {
     "id": "nerima-classroom-ivm36r",
@@ -821,24 +417,8 @@
     "description": "練馬区大泉学園に位置する大泉スワロー体育クラブが運営する七田式教室。七田式教育は、子どもの潜在能力を引き出し、右脳と左脳のバランスの取れた発達を促すことで知られています。記憶力、集中力、思考力といった知的能力だけでなく、豊かな心や創造性も育むことを目指します。歴史ある施設内で、子どもたちが楽しみながら学び、可能性を広げられる環境を提供します。",
     "url": "https://www.ostc.jp/",
     "partner": false,
-    "addedAt": "2026-06-22"
-  },
-  {
-    "id": "wangan-nas-icobtg",
-    "name": "スポーツクラブNAS勝どき キッズ体操スクール",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
-    "station": "都営大江戸線 勝どき駅 A1出口から徒歩3分",
-    "ages": "4歳〜中学生",
-    "price": "要問い合わせ",
-    "description": "幼児から中学生までを対象とした総合的な体操スクール。幼児体操教室PHSEATでは、運動の真似やリズム運動、簡単なアクロバットを通じて柔軟な心と体を育みます。バク転・アクロバット教室では、体操競技経験者の講師が少人数制で安全かつ楽しく、正しいアクロバット技術の習得をサポートします。",
-    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
-    "partner": false,
-    "addedAt": "2026-07-01"
+    "addedAt": "2026-06-22",
+    "sourceUrl": "https://www.ostc.jp/"
   },
   {
     "id": "wangan-nas-1r2e100",
@@ -855,210 +435,8 @@
     "description": "小学生から中学生を対象とした、陸上トレーニングとスイムを組み合わせたキッズトライアスロンスクール。複数のスポーツを複合的に行うことで、全身の持久力や筋力、バランス感覚を総合的に高めます。目標に向かって努力する精神力や、困難を乗り越える力を育み、健康な体と強い心を養います。",
     "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
     "partner": false,
-    "addedAt": "2026-07-01"
-  },
-  {
-    "id": "nerima-classroom-ygvbcm",
-    "name": "大泉スワロー体育クラブ",
-    "area": "nerima",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "練馬区大泉学園",
-    "station": "大泉学園駅から徒歩10分",
-    "ages": "0歳〜12歳",
-    "price": "要問い合わせ",
-    "description": "練馬区大泉学園に位置する1961年創業の老舗体育クラブ。地域最大級の設備で、0歳からのベビー＆ママ体操、幼児期の運動の土台を育むわんぱく教室、逆上がり克服を目指す体操、トランポリンなど多様な運動プログラムを提供。運動が苦手な子も楽しく通え、基礎体力と運動能力を総合的に高めたい家庭に最適です。",
-    "url": "https://www.ostc.jp/",
-    "partner": false,
-    "addedAt": "2026-07-01"
-  },
-  {
-    "id": "nerima-classroom-zoa6cg",
-    "name": "大泉スワロー体育クラブ キッズスイムスクール",
-    "area": "nerima",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "練馬区大泉学園",
-    "station": "大泉学園駅から徒歩10分",
-    "ages": "3歳〜12歳",
-    "price": "要問い合わせ",
-    "description": "練馬区大泉学園にある大泉スワロー体育クラブが提供するキッズスイムスクール。学校の水泳授業に備えたいお子様や、水泳を通じて心身の成長を促したい家庭に選ばれています。長年の指導実績と地域最大級の設備で、基礎から応用まで楽しく水泳を学べる環境です。子どもの運動能力向上と健康的な体作りをサポートします。",
-    "url": "https://www.ostc.jp/",
-    "partner": false,
-    "addedAt": "2026-07-01"
-  },
-  {
-    "id": "wangan-fun-and-happy-ayh095",
-    "name": "Fun and Happy（ファンアンドハッピー）英会話教室",
-    "area": "wangan",
-    "category": "language",
-    "niche": [],
-    "address": "江東区豊洲",
-    "station": "要問い合わせ",
-    "ages": "2歳〜小学生",
-    "price": "入会金あり、月謝は要問い合わせ",
-    "description": "江東区豊洲にある子ども向け英会話教室です。2歳からの親子コース、幼稚園児、小学生を対象に、英語を英語で学ぶ環境を提供。フォニックス学習を通じて読む・書く力を育み、アクティビティやゲームを取り入れた楽しいレッスンで英語を好きになることを重視しています。少人数制・母子分離で、一人ひとりとじっくり向き合う指導が特徴。イースターやハロウィンなどの季節イベントも開催し、自然に英語力が身につくようサポートします。",
-    "url": "https://www.funandhappy.jp/",
-    "partner": false,
-    "addedAt": "2026-07-11"
-  },
-  {
-    "id": "wangan-nas-1s79jk6",
-    "name": "スポーツクラブNAS勝どき ジャイアンツ ヴィーナスダンススクール",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
-    "station": "都営大江戸線 勝どき駅 A1出口から徒歩3分",
-    "ages": "3歳〜小学生",
-    "price": "要問い合わせ",
-    "description": "「人を応援する気持ち」「人を魅了する技」「健康な体」を育むチアダンススクール。ダンス技術だけでなく、挨拶などの礼儀やマナー、立ち振る舞いを身につけ、レッスンを通じて諦めない気持ちや他者を思いやる優しい心、チームワークを育みます。メジャースポーツのチアリーディングを体験できる教室です。",
-    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
-    "partner": false,
-    "addedAt": "2026-07-11"
-  },
-  {
-    "id": "wangan-nas-phseat-xfprk6",
-    "name": "スポーツクラブNAS勝どき 幼児体操教室 PHSEAT（フィジート）",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区勝どき1丁目-1-1 プラザ勝どきA棟2F",
-    "station": "都営大江戸線 勝どき駅 A1出口から徒歩3分",
-    "ages": "4歳〜小学2年生",
-    "price": "要問い合わせ",
-    "description": "運動の動きを真似したり、リズムやビートに合わせて動いたり、簡単なアクロバットにも挑戦する総合運動体操教室です。体操に音楽とアクロバットの要素を組み合わせ、子どもの柔軟な心とカラダを育てます。楽しみながら基礎運動能力を高め、好奇心と運動への喜びを育みます。",
-    "url": "https://www.nas-club.co.jp/kachidoki/kids/index.html",
-    "partner": false,
-    "addedAt": "2026-07-11"
-  },
-  {
-    "id": "setagaya-classroom-195usxc",
-    "name": "運動・体操教室フィジカルパーク",
-    "area": "setagaya",
-    "category": "sports",
-    "niche": [
-      "sports",
-      "juken"
-    ],
-    "address": "世田谷区東北沢",
-    "station": "東北沢駅 徒歩すぐ",
-    "ages": "0歳〜小学生",
-    "price": "要問い合わせ",
-    "description": "世田谷区東北沢駅すぐの「フィジカルパーク」は、0歳から小学生対象の運動・体操教室です。お子さまの個性に合わせたオーダーメイドプログラムを少人数制または完全個別制で提供。ビジョントレーニングやメンタルトレーニングで運動・脳機能、集中力や自主性を総合的に強化。小学校受験対策クラスでは、基礎運動能力や指示行動、行動観察をメンタルトレーナーがサポートします。スポーツのスキルアップ、苦手克服、知育にも対応し、心身両面から可能性を引き出す教室です。",
-    "url": "https://physipa.com/",
-    "partner": false,
-    "addedAt": "2026-07-11"
-  },
-  {
-    "id": "wangan-classroom-naxv67",
-    "name": "中央区立総合スポーツセンター こども向けスポーツ教室",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区日本橋浜町2丁目59番1号",
-    "station": "浜町駅（要問い合わせ）",
-    "ages": "要問い合わせ",
-    "price": "要問い合わせ",
-    "description": "中央区立総合スポーツセンターでは、こども・親子向けのスポーツ教室を定期的に開催しています。2026年には年間を通じて複数期の教室が予定されており、小学生を対象としたフロア教室などが含まれます。参加には事前の申し込みが必要で、定員を超えた場合は抽選となります。地域の子どもたちが運動を通じて健やかに成長できる機会を提供しており、スポーツでのびのびと活動したい家庭に適しています。",
-    "url": "https://www.chuo-sports.jp/school_tsukishima/",
-    "partner": false,
-    "addedAt": "2026-07-21"
-  },
-  {
-    "id": "wangan-classroom-1p96idq",
-    "name": "月島スポーツプラザ 幼児・小学生スポーツ教室",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区月島1丁目9番2号",
-    "station": "月島駅（要問い合わせ）",
-    "ages": "幼児〜小学生",
-    "price": "要問い合わせ",
-    "description": "月島スポーツプラザでは、幼児から小学生を対象としたスポーツ教室を提供しています。年間を通じて様々なスポーツプログラムが用意されており、子どもたちが楽しみながら運動能力を向上させることを目指しています。参加には事前の申し込みが必要で、定員を超えた場合は抽選となる場合があります。地域の子どもたちが体を動かし、健康的な生活習慣を育むのに適した環境です。",
-    "url": "https://www.chuo-sports.jp/school_tsukishima/",
-    "partner": false,
-    "addedAt": "2026-07-21"
-  },
-  {
-    "id": "setagaya-classroom-634ncr",
-    "name": "世田谷ジュニアダンスカレッジ",
-    "area": "setagaya",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "東京都世田谷区大蔵4-6-1",
-    "station": "要問い合わせ",
-    "ages": "幼児〜小学6年生",
-    "price": "要問い合わせ",
-    "description": "世田谷区スポーツ振興財団が提供する「世田谷ジュニアアカデミー&カレッジ」の一環として、子供たちが楽しみながら心と体を育むことを目指すスポーツスクールです。幼児から小学6年生までを対象に、専門的な指導を通じてダンスの基礎から応用までを習得できます。表現力やリズム感を養い、健全な成長をサポートします。世田谷区内の施設で活動しており、体を動かすことが好きなご家庭におすすめです。",
-    "url": "https://www.se-sports.or.jp/school/",
-    "partner": false,
-    "addedAt": "2026-07-21"
-  },
-  {
-    "id": "wangan-classroom-1nizcaj",
-    "name": "中央区立月島スポーツプラザ こどもスポーツ教室",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区月島1丁目9番2号",
-    "station": "月島駅",
-    "ages": "幼児〜小学生",
-    "price": "要問い合わせ",
-    "description": "中央区立月島スポーツプラザでは、子どもたちを対象としたスポーツ教室を提供しています。幼児向けと小学生向けのクラスがあり、運動能力の向上や健康な体づくりをサポートします。地域に根ざした公共施設として、子どもたちが安全に楽しく体を動かせる環境が整っています。具体的なプログラム内容は時期によって変動するため、詳細は施設へ直接お問い合わせください。スポーツを通じて協調性や挑戦する心を育みたいご家庭に適しています。",
-    "url": "https://www.chuo-sports.jp/school_tsukishima/",
-    "partner": false,
-    "addedAt": "2026-07-31"
-  },
-  {
-    "id": "nerima-classroom-lqwr70",
-    "name": "大泉スワロー体育クラブ 体操コース",
-    "area": "nerima",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "練馬区大泉学園町",
-    "station": "大泉学園駅 徒歩10分",
-    "ages": "幼児〜小学生",
-    "price": "要問い合わせ",
-    "description": "1961年創業の歴史と伝統を持つ練馬区の地域最大級の体育クラブです。体操コースでは、小学校入学前の運動能力向上から、跳び箱が苦手な小学生まで、幅広い年齢の子どもたちが基礎運動能力を楽しく身につけられます。運動神経の発達を促し、身体を動かす喜びを育む指導が特徴。地域に根ざした指導員が一人ひとりの成長をサポートし、子どもたちが「楽しい！」と感じながら通える環境を提供します。",
-    "url": "https://www.ostc.jp/",
-    "partner": false,
-    "addedAt": "2026-07-31"
-  },
-  {
-    "id": "nerima-classroom-1snrmlj",
-    "name": "大泉スワロー体育クラブ 水泳コース",
-    "area": "nerima",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "練馬区大泉学園町",
-    "station": "大泉学園駅 徒歩10分",
-    "ages": "0歳〜小学生",
-    "price": "要問い合わせ",
-    "description": "1961年創業の歴史ある大泉スワロー体育クラブが提供する水泳コースです。地域最大級の設備で、0歳からのベビー水泳から小学生まで、子どもの発達段階に合わせたきめ細やかな指導を行います。水に慣れることから始まり、泳ぎの基礎を楽しく習得。安全な環境で、水泳を通じて心身の健康と運動能力の向上を目指します。子どもたちが自信を持って水に親しめるよう、経験豊富な指導員が丁寧にサポートします。",
-    "url": "https://www.ostc.jp/",
-    "partner": false,
-    "addedAt": "2026-07-31"
+    "addedAt": "2026-07-01",
+    "sourceUrl": "https://www.nas-club.co.jp/kachidoki/kids/index.html"
   },
   {
     "id": "nerima-classroom-c6daj6",
@@ -1075,7 +453,8 @@
     "description": "練馬区大泉学園にある大泉スワロー体育クラブのトランポリンコースです。運動神経が著しく発達する「ゴールデンエイジ」の小学生を対象に、全身運動を通じてバランス感覚や体幹を養います。跳ぶ楽しさを体験しながら、運動能力の向上だけでなく、集中力やリズム感も育むことができます。地域最大級の設備と経験豊富な指導員のもと、安全に楽しくトランポリンを学び、子どもの可能性を広げることを目指します。",
     "url": "https://www.ostc.jp/",
     "partner": false,
-    "addedAt": "2026-07-31"
+    "addedAt": "2026-07-31",
+    "sourceUrl": "https://www.ostc.jp/"
   },
   {
     "id": "setagaya-classroom-jcpfym",
@@ -1092,7 +471,8 @@
     "description": "世田谷区が提供する「世田谷ジュニアアカデミー&カレッジ」の一環として、千歳地域でダンスの習い事を提供しています。幼児から中高生までを対象としていますが、0歳〜12歳のお子様には幼児〜小学6年生向けのコースが適しています。楽しみながら心と体を育むことを目指し、リズム感や表現力を養います。ダンスを通じて運動能力向上や協調性、健康的な成長をサポート。世田谷区内の施設で実施され、身体を動かす楽しさを体験させたいご家庭におすすめです。",
     "url": "https://www.se-sports.or.jp/school/",
     "partner": false,
-    "addedAt": "2026-08-01"
+    "addedAt": "2026-08-01",
+    "sourceUrl": "https://www.se-sports.or.jp/school/"
   },
   {
     "id": "setagaya-classroom-tw092o",
@@ -1109,24 +489,8 @@
     "description": "世田谷区の「世田谷ジュニアアカデミー&カレッジ」が提供する希望丘チアダンスカレッジは、幼児から中高生が対象です。希望丘地域体育館を拠点に、チアダンスを通じて協調性や表現力、体力向上を目指します。明るく活気ある雰囲気の中で、チームの一員として目標に向かって努力する経験を積みたいお子様に最適です。仲間と共に成長する喜びを感じられるでしょう。",
     "url": "https://www.se-sports.or.jp/school/",
     "partner": false,
-    "addedAt": "2026-08-11"
-  },
-  {
-    "id": "nerima-classroom-flphbi",
-    "name": "大泉スワロー体育クラブ 水泳スクール",
-    "area": "nerima",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "練馬区大泉学園町",
-    "station": "大泉学園駅 徒歩10分",
-    "ages": "0歳〜小学6年生",
-    "price": "要問い合わせ",
-    "description": "1961年創業の歴史ある大泉スワロー体育クラブが提供する水泳スクール。地域最大級の設備で、ベビーから小学生まで幅広い年齢層に対応。水に慣れることから始め、泳ぎの基礎を楽しく習得できる。着衣水泳指導も行い、安全教育にも力を入れている。令和7年度優秀スイミングクラブ賞を受賞するなど、質の高い指導で子どもの成長をサポートする。",
-    "url": "https://www.ostc.jp/",
-    "partner": false,
-    "addedAt": "2026-08-11"
+    "addedAt": "2026-08-11",
+    "sourceUrl": "https://www.se-sports.or.jp/school/"
   },
   {
     "id": "setagaya-classroom-y6ijgo",
@@ -1143,143 +507,8 @@
     "description": "世田谷区が提供する「世田谷ジュニアアカデミー&カレッジ」の一環として、野球の基礎技術を楽しく学べるプログラムです。幼児から中高生まで幅広い年齢層が対象で、心と体を育むことを重視しています。野球を通じて運動能力やチームワークを養いたいお子様や、野球に親しんでほしいご家庭に最適です。世田谷区内の各施設で活動しています。",
     "url": "https://www.se-sports.or.jp/school/",
     "partner": false,
-    "addedAt": "2026-08-21"
-  },
-  {
-    "id": "nerima-classroom-uzmqli",
-    "name": "大泉スワロー体育クラブ 体操・運動スクール",
-    "area": "nerima",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "練馬区大泉学園",
-    "station": "大泉学園駅 徒歩10分",
-    "ages": "0歳〜12歳",
-    "price": "要問い合わせ",
-    "description": "1961年創業の歴史ある大泉スワロー体育クラブが提供する体操・運動スクール。幼児から小学生までを対象に、体操、トランポリン、チャイルドスクール、わんぱく教室、特別支援のおひさまコースなど多様なプログラムを展開。遊びを通じて運動能力を育み、小学校入学前の準備や、運動が好きな子を育てることに注力しています。地域最大級の設備で、お子様の可能性を伸ばしたい保護者におすすめです。",
-    "url": "https://www.ostc.jp/",
-    "partner": false,
-    "addedAt": "2026-08-21"
-  },
-  {
-    "id": "wangan-classroom-1gn78pu",
-    "name": "中央区立総合スポーツセンター こども・親子向けスポーツ教室",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区日本橋浜町2丁目59番1号",
-    "station": "要問い合わせ",
-    "ages": "幼児〜小学生",
-    "price": "要問い合わせ",
-    "description": "中央区日本橋浜町に位置する総合スポーツセンターでは、子ども・親子向けのスポーツ教室を提供しています。親子で一緒に体を動かせるクラスや、小学生を対象としたフロア教室など、幅広い年齢の子どもたちが運動能力の向上や健康維持を目指し、楽しくスポーツに取り組む機会を提供。運動を通じて協調性や社会性も育むことができます。詳細は施設へ直接お問い合わせください。",
-    "url": "https://www.chuo-sports.jp/school_tsukishima/",
-    "partner": false,
-    "addedAt": "2026-09-01"
-  },
-  {
-    "id": "nerima-classroom-gtqxdc",
-    "name": "大泉スワロー体育クラブ 体操・トランポリンスクール",
-    "area": "nerima",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "練馬区大泉学園",
-    "station": "大泉学園駅 徒歩10分",
-    "ages": "0歳〜小学6年生",
-    "price": "要問い合わせ",
-    "description": "1961年創業の歴史と伝統を持つ練馬区大泉学園の総合スポーツクラブ。体操とトランポリンを通じて、0歳から小学生までのお子様の運動能力を遊びの中で育みます。小学校入学前の運動準備にも最適で、運動が苦手な子も得意な子も「楽しい！」と感じられる指導が特徴。地域最大級の設備で、お子様の可能性を伸ばしたい保護者におすすめです。",
-    "url": "https://www.ostc.jp/",
-    "partner": false,
-    "addedAt": "2026-09-01"
-  },
-  {
-    "id": "nerima-classroom-1i0el6g",
-    "name": "大泉スワロー体育クラブ 体操・トランポリン・総合運動スクール",
-    "area": "nerima",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "練馬区大泉学園町",
-    "station": "大泉学園駅から徒歩10分",
-    "ages": "0歳〜小学生",
-    "price": "要問い合わせ",
-    "description": "1961年創業の歴史ある体育クラブ。練馬区大泉学園に位置し、地域最大級のスポーツ設備で体操、トランポリン、総合運動を提供。ベビーから小学生までを対象に、遊びを通して運動能力を育み、小学校入学前の準備にも対応。子どもたちが「楽しい！」と感じながら成長できる指導が特徴です。",
-    "url": "https://www.ostc.jp/",
-    "partner": false,
-    "addedAt": "2026-09-01"
-  },
-  {
-    "id": "wangan-classroom-1ishzsd",
-    "name": "月島スポーツプラザ こどもスポーツ教室",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区月島1丁目9番2号",
-    "station": "要問い合わせ",
-    "ages": "幼児〜小学生",
-    "price": "要問い合わせ",
-    "description": "月島スポーツプラザでは、幼児から小学生を対象としたスポーツ教室が開催されます。運動能力の向上や健康な体作りを目指し、様々なスポーツ活動を通じて子どもの成長をサポートします。具体的なコース内容や募集時期については、施設ウェブサイトや館内掲示で詳細が案内されます。お子様の体力向上や運動習慣を身につけさせたいご家庭に適しています。現在、第2期の受付は終了しており、第3期の募集が11月上旬に予定されていますので、最新情報を確認してください。",
-    "url": "https://www.chuo-sports.jp/school_tsukishima/",
-    "partner": false,
-    "addedAt": "2026-09-11"
-  },
-  {
-    "id": "wangan-classroom-e2d60f",
-    "name": "中央区立総合スポーツセンター こどもスポーツ教室",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区日本橋浜町2丁目59番1号",
-    "station": "要問い合わせ",
-    "ages": "0歳〜12歳",
-    "price": "要問い合わせ",
-    "description": "中央区日本橋浜町に位置する総合スポーツセンターでは、幼児から小学生を対象とした「こどもスポーツ教室」を提供しています。コナミスポーツが指定管理者として運営しており、子どもたちが様々なスポーツ活動を通じて健やかに成長できる環境です。具体的なクラス内容は季節ごとに募集され、ホームページや館内掲示で案内されます。スポーツを通じて基礎体力や運動能力を向上させたいご家庭に適しています。",
-    "url": "https://www.chuo-sports.jp/school_tsukishima/",
-    "partner": false,
-    "addedAt": "2026-10-02"
-  },
-  {
-    "id": "wangan-classroom-xrstoq",
-    "name": "月島スポーツプラザ",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区月島1丁目9番2号",
-    "station": "月島駅 徒歩1分",
-    "ages": "幼児〜小学6年生",
-    "price": "要問い合わせ",
-    "description": "月島スポーツプラザでは、幼児から小学生を対象としたスポーツ教室を提供しています。運動能力の向上や健康維持、集団行動を通じた社会性の育成を目指します。具体的なコース内容は要問い合わせですが、幅広い年齢層の子どもたちが楽しく運動できる環境です。中央区月島に位置し、地域の子どもたちの体力づくりをサポートします。",
-    "url": "https://www.chuo-sports.jp/school_tsukishima/",
-    "partner": false,
-    "addedAt": "2026-10-12"
-  },
-  {
-    "id": "wangan-classroom-3h78r0",
-    "name": "中央区立総合スポーツセンター",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区日本橋浜町2丁目59番1号",
-    "station": "浜町駅 徒歩1分",
-    "ages": "0歳〜12歳",
-    "price": "要問い合わせ",
-    "description": "中央区立総合スポーツセンターでは、乳幼児から小学生を対象とした「こども・親子向け」のスポーツ教室を提供しています。親子で一緒に体を動かすクラスや、子どもたちが個々のレベルに合わせて運動能力を高めるプログラムが期待されます。地域の子どもたちの健全な成長と体力向上をサポートし、スポーツを通じて協調性や社会性を育む場です。中央区日本橋浜町に位置しています。",
-    "url": "https://www.chuo-sports.jp/school_tsukishima/",
-    "partner": false,
-    "addedAt": "2026-10-12"
+    "addedAt": "2026-08-21",
+    "sourceUrl": "https://www.se-sports.or.jp/school/"
   },
   {
     "id": "setagaya-classroom-1mg7ma7",
@@ -1296,90 +525,8 @@
     "description": "世田谷区が提供する「世田谷ジュニアアカデミー&カレッジ」の一環として、幼児から中高生を対象とした新体操スクールです。リボンやボールを使った表現運動を通じて、柔軟性、リズム感、表現力を養いたいお子様に最適。区内の体育館などを会場に、基礎的な動きから美しい演技まで丁寧に指導し、心身の成長と芸術性を育む機会を提供します。",
     "url": "https://www.se-sports.or.jp/school/",
     "partner": false,
-    "addedAt": "2026-10-31"
-  },
-  {
-    "id": "wangan-fun-and-happy-ykdadl",
-    "name": "Fun and Happy 英会話教室",
-    "area": "wangan",
-    "category": "language",
-    "niche": [],
-    "address": "江東区豊洲",
-    "station": "要問い合わせ",
-    "ages": "2歳〜小学6年生",
-    "price": "要問い合わせ",
-    "description": "Fun and Happy 英会話教室は、江東区豊洲で2歳から小学6年生までを対象とした少人数制の英会話スクールです。英語を英語で学ぶイマージョン教育を実践し、フォニックス学習を通じて読む・書く力を育みます。アクティビティやゲームを取り入れた楽しいレッスンと季節ごとのイベントで、子どもたちが自然に英語を好きになる環境を提供。母子分離クラスで、一人ひとりとじっくり向き合いながら、楽しみながら英語力を伸ばしたいご家庭に最適です。",
-    "url": "https://www.funandhappy.jp/",
-    "partner": false,
-    "addedAt": "2026-11-02"
-  },
-  {
-    "id": "wangan-classroom-z1u921",
-    "name": "中央区立総合スポーツセンター 月島スポーツプラザ こどもスポーツ教室",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [],
-    "address": "中央区月島1丁目9番2号",
-    "station": "月島駅",
-    "ages": "幼児〜小学6年生",
-    "price": "要問い合わせ",
-    "description": "中央区立総合スポーツセンターが運営する月島スポーツプラザでは、幼児から小学生を対象とした多様なスポーツ教室を提供しています。水泳やフロア運動など、子どもの成長段階に合わせたプログラムが用意されており、運動能力の向上や健康な体づくりをサポート。公共施設ならではの安心感と、地域に根差した運営が魅力です。集団での活動を通じて、協調性や社会性を育む機会も得られます。定期的に開催されるスポーツ教室は、子どもたちが体を動かす楽しさを見つけ、健やかに成長するための場とし",
-    "url": "https://www.chuo-sports.jp/school_tsukishima/",
-    "partner": false,
-    "addedAt": "2026-11-02"
-  },
-  {
-    "id": "setagaya-classroom-17fq09c",
-    "name": "フィジカルパーク 運動・体操教室",
-    "area": "setagaya",
-    "category": "sports",
-    "niche": [
-      "sports",
-      "juken"
-    ],
-    "address": "世田谷区東北沢",
-    "station": "東北沢駅 徒歩すぐ",
-    "ages": "0歳〜小学6年生",
-    "price": "要問い合わせ",
-    "description": "世田谷区東北沢駅すぐの「フィジカルパーク」は、0歳からの運動・体操教室。個性に合わせたオーダーメイドプログラムを、少人数または完全個別指導で提供。ビジョントレーニングやメンタルボディーマップトレーニングで運動能力と脳機能を強化。小学校受験対策クラスも充実し、基礎運動から行動観察まで指導。メンタルトレーナーも在籍し、心の成長もサポート。スポーツのスキルアップ、苦手克服、知育、受験準備を考えるご家庭に最適。",
-    "url": "https://physipa.com/",
-    "partner": false,
-    "addedAt": "2026-11-02"
-  },
-  {
-    "id": "wangan-classroom-1e7p45g",
-    "name": "中央区立総合スポーツセンター 小学生・親子向けスポーツ教室",
-    "area": "wangan",
-    "category": "sports",
-    "niche": [
-      "sports"
-    ],
-    "address": "中央区日本橋浜町2丁目59番1号",
-    "station": "要問い合わせ",
-    "ages": "小学生〜",
-    "price": "要問い合わせ",
-    "description": "中央区日本橋浜町に位置する総合スポーツ施設で、小学生を対象としたフロアでの運動教室や、こども・親子向けのスポーツプログラムを提供しています。2027年1月～3月開催の第3期教室の募集も予定されており、地域の子どもたちが運動を通じて健康的な生活習慣を身につけることを目指します。日本橋浜町周辺で、お子様の運動機会を探しているご家庭におすすめです。",
-    "url": "https://www.chuo-sports.jp/school_tsukishima/",
-    "partner": false,
-    "addedAt": "2026-11-12"
-  },
-  {
-    "id": "setagaya-classroom-sth9p6",
-    "name": "フィジカルパーク",
-    "area": "setagaya",
-    "category": "sports",
-    "niche": [
-      "sports",
-      "juken"
-    ],
-    "address": "世田谷区",
-    "station": "東北沢駅 徒歩すぐ",
-    "ages": "0歳〜小学6年生",
-    "price": "要問い合わせ",
-    "description": "「フィジカルパーク」は、0歳から子どもたちの「体と心の個人の発育・成長」と「個性」に合わせたオーダーメイドプログラムを提供する運動教室です。世田谷区東北沢駅すぐの立地で、少人数制と完全個別制を選択可能。ビジョントレーニングやメンタルボディーマップトレーニング、メンタルトレーニングを導入し、運動機能と脳機能を強化します。小学校受験対策クラスも設け、基礎運動能力から指示行動、行動観察までを指導。スポーツのスキルアップや苦手克服、集中力・自主性などのメンタル強化",
-    "url": "https://physipa.com/",
-    "partner": false,
-    "addedAt": "2026-11-12"
+    "addedAt": "2026-10-31",
+    "sourceUrl": "https://www.se-sports.or.jp/school/"
   },
   {
     "id": "nerima-classroom-nubf51",
@@ -1394,6 +541,7 @@
     "description": "大泉スワロー体育クラブが提供する「おひさまコース」は、特別支援を必要とするお子様向けの専門プログラムです。一人ひとりの発達段階や特性に合わせた丁寧な指導を通じて、運動能力の向上や社会性の育成をきめ細やかにサポートします。安心できる環境で、個々のペースに合わせた活動を提供し、お子様の成長と自信を育むことを目指します。専門的な配慮とサポートを求める保護者様に適した教室です。",
     "url": "https://www.ostc.jp/",
     "partner": false,
-    "addedAt": "2026-11-22"
+    "addedAt": "2026-11-22",
+    "sourceUrl": "https://www.ostc.jp/"
   }
 ]
