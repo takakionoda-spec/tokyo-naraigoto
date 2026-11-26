@@ -1,0 +1,38 @@
+{
+  "_howto": "TOPスライドショーの中身です。上から順に表示されます。広告に差し替えるときは、スライドを {\"id\":\"ad-会社名-2027-01\",\"type\":\"ad\",\"sponsor\":\"会社名\",\"image\":\"/banners/xxx-pc.jpg\",\"imageMobile\":\"/banners/xxx-sp.jpg\",\"alt\":\"バナーの説明\",\"href\":\"https://リンク先\"} の形にしてください。画像サイズは PC 1200×400px（3:1）、スマホ 800×800px（1:1）。画像は public/banners/ に置きます。一時的に非表示にするには \"active\": false を追加します。type が ad のスライドには自動で「PR」表記が付き、表示回数とクリック数がGA4（banner_view / banner_click）に記録されます。",
+  "slides": [
+    {
+      "id": "house-top",
+      "type": "house",
+      "label": "湾岸・世田谷・練馬｜0〜12歳の習い事",
+      "title": "わが家の方針に合う習い事が、<br><em>3分で見つかる。</em>",
+      "text": "「インター志向」「中学受験」「スポーツでのびのび」。育て方のニーズ軸から教室を探せます。",
+      "cta": "教室をさがす",
+      "href": "#classrooms",
+      "bg": "linear-gradient(120deg,#0ea5e9 0%,#4f46e5 100%)",
+      "mark": "習"
+    },
+    {
+      "id": "house-new-2026-11",
+      "type": "house",
+      "label": "NEW｜新着教室",
+      "title": "プログラミング・音楽・英会話の<br>教室を追加しました",
+      "text": "豊洲・三軒茶屋・二子玉川・下北沢・石神井など、公式情報を確認した教室を掲載しています。",
+      "cta": "新着教室を見る",
+      "href": "#classrooms",
+      "bg": "linear-gradient(120deg,#f97316 0%,#ec4899 100%)",
+      "mark": "NEW"
+    },
+    {
+      "id": "house-owner",
+      "type": "house",
+      "label": "教室を運営されている方へ",
+      "title": "教室の掲載・情報の修正は<br>こちらから",
+      "text": "新規掲載のご相談や、掲載内容の修正・削除をフォームで受け付けています。",
+      "cta": "オーナー向けのご案内",
+      "href": "#owner",
+      "bg": "linear-gradient(120deg,#059669 0%,#0d9488 55%,#0284c7 100%)",
+      "mark": "＋"
+    }
+  ]
+}
