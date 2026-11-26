@@ -1,6 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
 import classrooms from '../data/classrooms.json';
+import HeroSlider from '../components/HeroSlider.astro';
+import banners from '../data/banners.json';
 
 export const AREA_LABELS = { wangan: '湾岸エリア', setagaya: '世田谷エリア', nerima: '練馬エリア' };
 export const CATEGORY_LABELS = { learning: '学び', language: '語学', sports: 'スポーツ', other: 'その他' };
@@ -28,19 +30,15 @@ const partnerCount = classrooms.filter((c) => c.partner).length;
   title="TOKYO習い事.com｜湾岸・世田谷・練馬の子どもの習い事ポータル"
   description="豊洲・勝どき・有明などの湾岸エリア、世田谷、練馬の0〜12歳向け習い事を、インター志向・中学受験・スポーツ重視などの「親のニーズ軸」で探せるポータルサイト。"
 >
-  <!-- Hero -->
-  <section class="bg-gradient-to-b from-sky-100 via-sky-50 to-slate-50">
-    <div class="mx-auto max-w-6xl px-4 pb-10 pt-14 text-center">
-      <h1 class="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-        わが家の方針に合う習い事が、<span class="bg-gradient-to-r from-sky-600 to-indigo-600 bg-clip-text text-transparent">3分で見つかる。</span>
-      </h1>
-      <p class="mx-auto mt-4 max-w-2xl text-slate-600">
-        湾岸（豊洲・勝どき・有明）・世田谷・練馬の0〜12歳向け教室を、
-        「インター志向」「中学受験」「スポーツでのびのび」という<strong>育て方のニーズ軸</strong>から探せます。
-      </p>
-      <p class="mt-6 text-sm text-slate-500">
-        掲載教室 <strong class="text-slate-800">{classrooms.length}</strong> 件 ／ 公式パートナー <strong class="text-amber-600">{partnerCount}</strong> 件 ／ 10日ごとに自動更新
-      </p>
+  <!-- Hero：スライドショーバナー（内容は src/data/banners.json で管理） -->
+  <section class="hero-wrap">
+    <div class="mx-auto max-w-6xl px-4 pb-2 pt-5 sm:pt-8">
+      <HeroSlider banners={banners.slides} />
+      <dl class="hero-stats">
+        <div><dt>掲載教室</dt><dd>{classrooms.length}<small>件</small></dd></div>
+        <div><dt>対応エリア</dt><dd>{Object.keys(AREA_LABELS).length}<small>エリア</small></dd></div>
+        <div><dt>情報の更新</dt><dd>10<small>日ごと</small></dd></div>
+      </dl>
     </div>
   </section>
 
